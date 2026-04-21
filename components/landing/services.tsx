@@ -7,30 +7,22 @@ const services = [
   {
     icon: <Briefcase className="h-10 w-10 text-primary" />,
     title: "Stratégies d’investissement",
-    description: "Maximisez vos rendements avec nos stratégies 
-d'investissement personnalisées en crypto-monnaies. Notre équipe d'experts 
-vous guide à chaque étape.",
+    description: "Maximisez vos rendements avec nos stratégies d'investissement personnalisées en crypto-monnaies. Notre équipe d'experts vous guide à chaque étape.",
   },
   {
     icon: <BarChart3 className="h-10 w-10 text-primary" />,
     title: "Conseil en gestion d'actifs",
-    description: "Gestion experte de votre portefeuille d'actifs 
-numériques pour optimiser la croissance et équilibrer les risques dans un 
-marché volatil.",
+    description: "Gestion experte de votre portefeuille d'actifs numériques pour optimiser la croissance et équilibrer les risques dans un marché volatil.",
   },
   {
     icon: <ShieldCheck className="h-10 w-10 text-primary" />,
     title: "Gestion des risques",
-    description: "Analyse complète des risques et stratégies d’atténuation 
-pour protéger vos investissements contre les fluctuations et les menaces 
-du marché.",
+    description: "Analyse complète des risques et stratégies d’atténuation pour protéger vos investissements contre les fluctuations et les menaces du marché.",
   },
   {
     icon: <Scaling className="h-10 w-10 text-primary" />,
     title: "Formation Crypto",
-    description: "Une formation vous est proposée pour une meilleure 
-compréhension de l’écosystème et des decisions que vous prendrez pour 
-maximiser vos investissements.",
+    description: "Une formation vous est proposée pour une meilleure compréhension de l’écosystème et des decisions que vous prendrez pour maximiser vos investissements.",
   },
 ];
 
