@@ -40,10 +40,8 @@ text-primary-foreground/70 hover:text-white">Contact</Link></li>
               <h4 className="font-semibold tracking-wider uppercase 
 mb-4">Connect</h4>
               <div className="flex space-x-4">
-                <Link href="https://x.com/ParigOffshore" aria-label="X 
-(formerly Twitter)">
-                  <XIcon className="h-6 w-6 text-primary-foreground/70 
-hover:text-white" />
+                <Link href="https://x.com/ParigOffshore" aria-label="X (formerly Twitter)">
+                  <Twitter className="h-6 w-6 text-primary-foreground/70 hover:text-white" />
                 </Link>
                 <Link 
 href="https://www.linkedin.com/in/david-birota-cryptoconsultme/" 
