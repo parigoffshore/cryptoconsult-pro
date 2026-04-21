@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "hosting": {
     "source": ".",
@@ -8,6 +7,6 @@
     }
   }
 }
-=======
+
 {"hosting": {"public": "public", "ignore": ["firebase.json", "**/.*", "node_modules/**"]}}
->>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
+ d2eb0c072d619ed0d85e4171f70d6ecbba446d59
