@@ -18,8 +18,7 @@ import { contactFormSubmit, type ContactFormInput } from
 const formSchema = z.object({
   name: z.string().min(2, "Le nom doit comporter au moins 2 caractères."),
   email: z.string().email("Veuillez saisir une adresse e-mail valide."),
-  subject: z.string().min(5, "Le sujet doit comporter au moins 5 
-caractères."),
+  subject: z.string().min(5, "Le sujet doit comporter au moins 5 caractères."),
   message: z.string()
     .min(10, "Le message doit comporter au moins 10 caractères.")
     .max(500, "Le message doit comporter moins de 500 caractères."),
@@ -45,8 +44,7 @@ export default function Contact() {
       if (result.success) {
         toast({
           title: "Message envoyé!",
-          description: "Merci de nous avoir contactés. Nous vous 
-répondrons sous peu.",
+          description: "Merci de nous avoir contactés. Nous vous répondrons sous peu.",
         });
         form.reset();
       } else {
@@ -56,8 +54,7 @@ répondrons sous peu.",
       toast({
         variant: "destructive",
         title: "Oh oh! Quelque chose s'est mal passé.",
-        description: "Impossible d'envoyer votre message. Veuillez 
-réessayer plus tard.",
+        description: "Impossible d'envoyer votre message. Veuillez réessayer plus tard.",
       });
     }
   }
@@ -73,8 +70,7 @@ pour ${date.toLocaleDateString()}.`,
       toast({
         variant: "destructive",
         title: "La réservation a échoué",
-        description: "Veuillez sélectionner une date pour votre 
-consultation.",
+        description: "Veuillez sélectionner une date pour votre consultation.",
       });
     }
   }
