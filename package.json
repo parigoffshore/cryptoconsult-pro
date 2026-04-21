@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+HEAD
   "name": "nextn",
   "version": "0.1.0",
   "private": true,
@@ -72,7 +72,7 @@
     "typescript": "^5.4.5"
   }
 }
-=======
+
   "name": "cryptoconsult-pro",
   "version": "0.1.0",
   "private": true,
@@ -102,4 +102,4 @@
     "typescript": "^5"
   }
 }
->>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
+ d2eb0c072d619ed0d85e4171f70d6ecbba446d59
