@@ -1,13 +1,8 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import ClientProviders from "./ClientProviders";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "CryptoConsult Pro",
-  description: "Votre partenaire expert en stratégie crypto",
+export const metadata = {
+  title: "Crypto Consult Pro | L'Architecte de votre Souveraineté",
+  description: "Stratégies d'investissement et protection de patrimoine hors du système bancaire classique.",
 };
 
 export default function RootLayout({
@@ -17,8 +12,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className={inter.className}>
-        <ClientProviders>{children}</ClientProviders>
+      <head>
+        {/* Chargement standard des polices sans bloquer le build */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+      </head>
+      <body className="bg-[#0A0A0A] text-[#F3F4F6] antialiased">
+        {children}
       </body>
     </html>
   );
