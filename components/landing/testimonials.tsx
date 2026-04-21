@@ -20,9 +20,7 @@ const testimonials = [
     avatar: "MF",
     image: "https://picsum.photos/100/100?random=4",
     dataAiHint: "professional headshot",
-    quote: "Grâce aux conseils de CryptoConsult Pro, j'ai pu structurer 
-mon portefeuille crypto et réaliser des gains significatifs en seulement 6 
-mois.",
+    quote: "Grâce aux conseils de CryptoConsult Pro, j'ai pu structurer mon portefeuille crypto et réaliser des gains significatifs en seulement 6 mois.",
   },
   {
     name: "Client Sofia Martinez",
@@ -30,8 +28,7 @@ mois.",
     avatar: "SM",
     image: "https://picsum.photos/100/100?random=5",
     dataAiHint: "professional headshot",
-    quote: "Leurs conseils m'ont permis de diversifier mes investissements 
-et de sécuriser mes actifs tout en maximisant mes rendements.",
+    quote: "Leurs conseils m'ont permis de diversifier mes investissements et de sécuriser mes actifs tout en maximisant mes rendements.",
   },
   {
     name: "Client Thomas Van Steiner",
@@ -39,8 +36,7 @@ et de sécuriser mes actifs tout en maximisant mes rendements.",
     avatar: "TVS",
     image: "https://picsum.photos/100/100?random=6",
     dataAiHint: "professional headshot",
-    quote: "J'ai appris énormément sur la sécurité et la diversification. 
-Maintenant, j'investis en crypto avec beaucoup plus de confiance.",
+    quote: "J'ai appris énormément sur la sécurité et la diversification. Maintenant, j'investis en crypto avec beaucoup plus de confiance.",
   },
 ]
 
