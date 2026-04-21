@@ -1,5 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+<<<<<<< HEAD
 
+=======
+node_modules/
+.env
+.env.local
+.next/
+*.log
+.firebase/
+out/
+>>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
 # dependencies
 /node_modules
 /.pnp
@@ -19,19 +29,31 @@
 
 # production
 /build
+<<<<<<< HEAD
 /dist
+=======
+>>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
 
 # misc
 .DS_Store
 *.pem
+<<<<<<< HEAD
 Thumbs.db
+=======
+>>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+<<<<<<< HEAD
 lerna-debug.log*
+=======
+
+# env files (can opt-in for committing if needed)
+.env*
+>>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
 
 # vercel
 .vercel
@@ -39,6 +61,7 @@ lerna-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
 
 # genkit
 .genkit/*
@@ -113,3 +136,5 @@ out/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+=======
+>>>>>>> d2eb0c072d619ed0d85e4171f70d6ecbba446d59
