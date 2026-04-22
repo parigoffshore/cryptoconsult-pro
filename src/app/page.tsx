@@ -1,6 +1,7 @@
 import Script from 'next/script';
 import { BarChart3, Clock3, FileText, Shield } from 'lucide-react';
 import Testimonials from '@/components/landing/testimonials';
+import LeadForm from '@/components/landing/LeadForm';
 
 export default function HomePage() {
   return (
@@ -24,12 +25,7 @@ export default function HomePage() {
               alliant discrétion, contrôle et résilience.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <a
-                href="#reservation"
-                className="rounded-sm bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#0A0A0A] transition hover:brightness-110"
-              >
-                Télécharger le Plan de Sortie
-              </a>
+              <LeadForm />
               <a
                 href="#services"
                 className="rounded-sm border border-[#D4AF37]/40 bg-transparent px-5 py-2.5 text-sm text-[#F3F4F6] transition-colors hover:border-[#D4AF37]"
