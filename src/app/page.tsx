@@ -2,6 +2,7 @@ import Script from 'next/script';
 import { BarChart3, Clock3, FileText, Shield } from 'lucide-react';
 import Testimonials from '@/components/landing/testimonials';
 import LeadForm from '@/components/landing/LeadForm';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -171,13 +172,16 @@ export default function HomePage() {
 
             <div className="mx-auto mt-12 grid max-w-4xl items-start gap-12 md:grid-cols-[200px_1fr]">
               <div>
-                <div className="flex aspect-[3/4] flex-col items-center justify-center gap-3 rounded-md border border-[#1e1e1e] bg-[#121212]">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#1a1200] text-lg font-bold text-[#D4AF37]">
-                    DB
-                  </div>
-                  <p className="text-xs text-[#333]">Photo</p>
+                <div className="flex flex-col items-center">
+                  <Image 
+                    src="/Profil pic Web site" 
+                    alt="David Birota - Votre conseiller crypto" 
+                    width={150} 
+                    height={150}
+                    className="rounded-full border-2 border-[#D4AF37] shadow-lg mb-6"
+                  />
                 </div>
-                <div className="mt-4 flex flex-col gap-2">
+                <div className="flex flex-col gap-2">
                   <a
                     href="https://www.linkedin.com/in/david-birota-cryptoconsultme/"
                     target="_blank"
