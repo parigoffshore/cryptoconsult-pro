@@ -172,15 +172,14 @@ export default function HomePage() {
 
             <div className="mx-auto mt-12 grid max-w-4xl items-start gap-12 md:grid-cols-[200px_1fr]">
               <div>
-                <div className="aspect-[3/4] relative overflow-hidden rounded-md border border-[#1e1e1e]">
-                  <Image
-                    src="/profil-david.png"
-                    alt="David Birota - CryptoConsult Pro"
-                    fill
-                    className="object-cover object-center rounded-md"
-                    priority
-                  />
-                </div>
+                <Image
+                  src="/profil-david.png"
+                  alt="David Birota - CryptoConsult Pro"
+                  width={400}
+                  height={533}
+                  className="w-full rounded-md border border-[#1e1e1e] object-cover"
+                  priority
+                />
                 <div className="flex flex-col gap-2">
                   <a
                     href="https://www.linkedin.com/in/david-birota-cryptoconsultme/"
