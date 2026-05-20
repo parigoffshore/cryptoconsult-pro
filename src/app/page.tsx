@@ -29,7 +29,7 @@ export default function HomePage() {
               <LeadForm />
               <a
                 href="#services"
-                className="rounded-sm border border-[#D4AF37]/40 bg-transparent px-5 py-2.5 text-sm text-[#F3F4F6] transition-colors hover:border-[#D4AF37]"
+                className="rounded-sm bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#0A0A0A] transition hover:brightness-110"
               >
                 Nos Services
               </a>
@@ -37,7 +37,7 @@ export default function HomePage() {
                 href="https://cryptoconsultme.systeme.io/ton-livre-blanc-gratuit"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-sm border border-[#D4AF37]/40 bg-transparent px-5 py-2.5 text-sm text-[#F3F4F6] transition-colors hover:border-[#D4AF37]"
+                className="rounded-sm bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#0A0A0A] transition hover:brightness-110"
               >
                 Livre Blanc Gratuit
               </a>
@@ -174,7 +174,7 @@ export default function HomePage() {
               <div>
                 <div className="aspect-[3/4] relative overflow-hidden rounded-md border border-[#1e1e1e]">
                   <Image
-                    src="/Profil_pic_Web_site.png"
+                    src="/profil-david.png"
                     alt="David Birota - CryptoConsult Pro"
                     fill
                     className="object-cover object-center rounded-md"
