@@ -25,7 +25,7 @@ export default function HomePage() {
               Protégez votre patrimoine hors système bancaire avec une stratégie sur mesure,
               alliant discrétion, contrôle et résilience.
             </p>
-            <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <div className="mt-10 flex flex-wrap justify-center gap-4 items-end">
               <LeadForm />
               <a
                 href="#services"
