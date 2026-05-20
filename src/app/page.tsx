@@ -179,6 +179,7 @@ export default function HomePage() {
                   height={533}
                   className="w-full rounded-md border border-[#1e1e1e] object-cover"
                   priority
+          unoptimized
                 />
                 <div className="flex flex-col gap-2">
                   <a
