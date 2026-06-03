@@ -5,9 +5,7 @@ category: "Éducation"
 author: "David"
 ---
 
----
-
-## Introduction : Quand les Frontières Deviennent des Obstacles Patrimoniaux
+Introduction : Quand les Frontières Deviennent des Obstacles Patrimoniaux...
 
 Imaginez que vous souhaitez transférer une partie de votre patrimoine immobilier français vers un investissement en Espagne ou au Portugal. Entre les frais notariaux, les délais bancaires, les contrôles de change et les frottements fiscaux, l'opération peut prendre des semaines, mobiliser plusieurs intermédiaires et coûter plusieurs milliers d'euros. Maintenant imaginez la même opération réalisée en quelques heures, avec une fraction des frais, sans intermédiaire imposé, et avec une traçabilité totale de chaque mouvement.
 
