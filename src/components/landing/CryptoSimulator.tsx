@@ -15,13 +15,13 @@ const questions = [
   },
   {
     q: "Quel niveau de variation de votre capital êtes-vous prêt à accepter ?",
-    options: ["Le moins possible", "De petites variations seulement", "Des variations est intéressant", "De fortes variations si le potentiel est élevé"],
+    options: ["Le moins possible", "De petites variations seulement", "Des variations modérées si le potentiel est intéressant", "De fortes variations si le potentiel est élevé"],
     justification: "L'évaluation de votre tolérance au risque permet de calibrer la proportion de liquidités (poudre sèche) nécessaire."
   },
   {
     q: "Si votre portefeuille baisse fortement pendant un moment, que faites-vous le plus probablement ?",
     options: ["Je préfère sortir rapidement", "J’attends mais cela m’inquiète", "Je garde mon plan sans paniquer", "Je cherche si c’est une opportunité"],
-    justification: "Cette donnstion émotionnelle face aux baisses et dicte le niveau d'automatisation requis pour protéger vos fonds."
+    justification: "Cette donnée révèle votre gestion émotionnelle face aux baisses et dicte le niveau d'automatisation requis pour protéger vos fonds."
   },
   {
     q: "Quel est votre niveau actuel en crypto ?",
@@ -34,13 +34,14 @@ const questions = [
     justification: "Le volume de capital exige des infrastructures différentes : les protocoles de sécurisation évoluent selon les montants."
   },
   {
-    q: "Quel type d’    options: ["Quelque chose de simple, stable et encadré", "Un mélange entre sécurité et opportunités", "Une approche plus innovante pour le rendement", "Une approche opportuniste, plus active"],
+    q: "Quel type d'approche vous correspond le mieux ?",
+    options: ["Quelque chose de simple, stable et encadré", "Un mélange entre sécurité et opportunités", "Une approche plus innovante pour le rendement", "Une approche opportuniste, plus active"],
     justification: "Cela oriente le choix stratégique entre une détention passive et une exploitation active de l'écosystème."
   },
   {
     q: "Aujourd’hui, de quoi avez-vous le plus besoin ?",
     options: ["D’être rassuré et guidé pas à pas", "D’un cadre clair pour investir avec méthode", "D’identifier de nouvelles opportunités", "D’une stratégie plus offensive et réactive"],
-    justification: "C'est l'indicateur final pour définir le plan d'actionvos lacunes actuelles."
+    justification: "C'est l'indicateur final pour définir le plan d'action qui corrigera efficacement vos lacunes actuelles."
   }
 ];
 
@@ -114,7 +115,9 @@ export default function CryptoSimulator() {
 
   return (
     <div className="mx-auto max-w-2xl rounded-md border border-[#1e1e1e] bg-[#0a0a0a] p-8 shadow-2xl">
-      <h2 className="mb-2 text-center font-headline text-3xl text-white">Audit de <span className="italic text-[#D4AF37]">Souveraineté</span>    {step < 8 ? (
+      <h2 className="mb-2 text-center font-headline text-3xl text-white">Audit de <span className="italic text-[#D4AF37]">Souveraineté</span></h2>
+      
+      {step < 8 ? (
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
           <p className="mb-8 text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">Question {step + 1} / 8</p>
           <p className="mb-6 text-center text-lg font-medium text-[#F3F4F6]">{questions[step].q}</p>
@@ -151,7 +154,7 @@ export default function CryptoSimulator() {
           
           <label className="mb-6 flex items-start gap-3 text-xs text-[#F3F4F6]/50 text-left">
             <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5" />
-            <span>En validant ce formulaire, j&apos;accepte de recevoir mon diagnostic et des communicationratégiques de la part de Crypto Consult Pro. Vos données restent strictement confidentielles.</span>
+            <span>En validant ce formulaire, j&apos;accepte de recevoir mon diagnostic et des communications stratégiques de la part de Crypto Consult Pro. Vos données restent strictement confidentielles.</span>
           </label>
           
           <button
