@@ -20,7 +20,7 @@ export default function HomePage() {
             <h1 className="mt-6 font-headline text-5xl font-normal leading-tight md:text-7xl">
               L&apos;Architecte de votre
               <br />
-              <span className="italic text[#D4AF37]">Souveraineté Financière</span>
+              <span className="italic tex-[#D4AF37]">Souveraineté Financière</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-[#F3F4F6]/70">
               Protégez votre patrimoine hors système bancaire avec une stratégie sur mesure,
@@ -30,18 +30,19 @@ export default function HomePage() {
               <LeadForm />
               <a
                 href="#services"
-                className="rounded-sm bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#0A0A0A] transition hover:brightne              >
+                className="rounded-sm bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#0A0A0A] transition hover:brightness-110"
+              >
                 Nos Services
               </a>
               <a
                 href="#simulateur"
                 className="rounded-sm border border-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#D4AF37] transition hover:bg-[#D4AF37] hover:text-[#0A0A0A]"
               >
-                Passer l'Audit
+                Passer l&apos;Audit
               </a>
             </div>
           </div>
-          <div className="absolute inset-x-0 bottom-0">
+          <div className="absolute insottom-0">
             <svg viewBox="0 0 1440 80" preserveAspectRatio="none" className="block w-full -mb-px">
               <path
                 d="M0,40 C240,80 480,0 720,40 C960,80 1200,10 1440,40 L1440,80 L0,80 Z"
@@ -72,10 +73,10 @@ export default function HomePage() {
               Trois principes fondamentaux qui guident chaque stratégie patrimoniale
             </p>
 
-            <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cls-3">
+            <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-3">
               <article className="relative rounded-md border border-[#D4AF37]/20 bg-[#121212] p-8 text-center">
                 <span className="absolute left-1/2 top-0 h-0.5 w-12 -translate-x-1/2 rounded-b-sm bg-[#D4AF37]" />
-                <p className="mb-4 text-[8px] uppercase tracking-[0.25em] text-[#D4AF37]">PILIER 01</p>
+                <p className="mb-4 text-[8px] uppercase tracking-[0.25em] text-[#D4AF37]">PILIER 01<p>
                 <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-[#1a1200]">
                   <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
                     <circle cx="22" cy="22" r="13" stroke="#D4AF37" strokeWidth="1.5" strokeDasharray="3 3" />
@@ -84,16 +85,16 @@ export default function HomePage() {
                 </div>
                 <h3 className="mb-3 font-headline text-xl text-[#F3F4F6]">Invisibilité</h3>
                 <p className="text-sm leading-relaxed text-[#F3F4F6]/50">
-                  Protéger votre vie privée patrimoniale avec des structuresscrètes et robustes.
+                  Protéger votre vie privée patrimoniale avec des structures discrètes et robustes.
                 </p>
               </article>
 
               <article className="relative rounded-md border border-[#D4AF37]/20 bg-[#121212] p-8 text-center">
-                <span className="absolute left-1/2 top-0 h-0.5 w-12 -translae-x-1/2 rounded-b-sm bg-[#D4AF37]" />
+                <span className="absolute left-1/2 top-0 h-0.5 w-12 -translate-x-1/2 rounded-b-sm bg-[#D4AF37]" />
                 <p className="mb-4 text-[8px] uppercase tracking-[0.25em] text-[#D4AF37]">PILIER 02</p>
                 <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-[#1a1200]">
                   <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-                    <circle cx="15" cy="22" r="5" stroke="#D4AF37" strokeWidth="1.8" />
+                    <circle cx="15" cy="22" r=stroke="#D4AF37" strokeWidth="1.8" />
                     <path d="M20 22h12M28 16l6 6-6 6" stroke="#D4AF37" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
@@ -103,9 +104,10 @@ export default function HomePage() {
                 </p>
               </article>
 
-              <article className="relative rounded-md border border-[#D4AF37]/20 bg-[#121212] p-8 text-center                <span className="absolute left-1/2 top-0 h-0.5 w-12 -translate-x-1/2 rounded-b-sm bg-[#D4AF37]" />
+              <article className="relative rounded-md border border-[#D4AF37]/20 bg-[#121212] p-8 text-center">
+                <span className="absolute left-1/2 top-0 h-0.5 w-12 -translate-x-1/2 rounded-b-sm bg-[#D4AF37]" />
                 <p className="mb-4 text-[8px] uppercase tracking-[0.25em] text-[#D4AF37]">PILIER 03</p>
-                <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-[#1a1200]">
+                <div className="mx-a mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-[#1a1200]">
                   <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
                     <path d="M22 8 12 12.5v9.4c0 6.2 4 11 10 13.6 6-2.6 10-7.4 10-13.6v-9.4L22 8Z" stroke="#D4AF37" strokeWidth="1.8" strokeLinejoin="round" />
                     <path d="m17.8 22.2 3 3 5.5-5.7" stroke="#D4AF37" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -114,7 +116,7 @@ export default function HomePage() {
                 <h3 className="mb-3 font-headline text-xl text-[#F3F4F6]">Auto-Garde</h3>
                 <p className="text-sm leading-relaxed text-[#F3F4F6]/50">
                   Garder le contrôle de vos actifs stratégiques avec une gouvernance claire et sécurisée.
-                </p>
+            </p>
               </article>
             </div>
           </div>
@@ -127,11 +129,12 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl">
             <p className="text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">CE QUE NOUS OFFRONS</p>
             <h2 className="mt-2 text-center font-headline text-3xl text-[#F3F4F6] md:text-5xl">Nos Services</h2>
-            <p className="mt-3 text-center text-[#F3F4F6]/5              Des solutions adaptées à chaque profil d&apos;investisseur exigeant
+            <p className="mt-3 text-center text-[#F3F4F6]/50">
+              Des solutions adaptées à chaque profil d&apos;investisseur exigeant
             </p>
 
             <div className="mx-auto mt-12 grid max-w-5xl gap-6 md:grid-cols-3">
-              <article className="rounded-md border border-[#1e1e1e] bg-[#0f0f0f] p-6 transition-colors hover:border-[#D4AF37]/40">
+              <article className="rounded-md border border-[#1e1e1e] bg-[#0f0f0f] p-6 transition-colors hoveborder-[#D4AF37]/40">
                 <BarChart3 className="h-9 w-9 text-[#D4AF37]" />
                 <h3 className="mt-4 font-headline text-xl text-[#F3F4F6]">Stratégie de portefeuille</h3>
                 <p className="mt-2 text-sm leading-relaxed text-[#F3F4F6]/60">
@@ -142,9 +145,9 @@ export default function HomePage() {
                 </span>
               </article>
 
-              <article className="rounded-md border border-[#1e1e1e] bg-[#0f0f0f] p-6 transition-coover:border-[#D4AF37]/40">
+              <article className="rounded-md border border-[#1e1e1e] bg-[#0f0f0f] p-6 transition-colors hover:border-[#D4AF37]/40">
                 <Shield className="h-9 w-9 text-[#D4AF37]" />
-                <h3 className="mt-4 font-headline text-xl text-[#F3F4F6]">Protection patrimoniale</h3>
+                <h3 className="mt-4 font-headline text-xl text-[#F3F4F6]">Protection patniale</h3>
                 <p className="mt-2 text-sm leading-relaxed text-[#F3F4F6]/60">
                   Structures juridiques et solutions hors système pour sécuriser et transmettre votre patrimoine.
                 </p>
@@ -155,8 +158,8 @@ export default function HomePage() {
 
               <article className="rounded-md border border-[#1e1e1e] bg-[#0f0f0f] p-6 transition-colors hover:border-[#D4AF37]/40">
                 <Clock3 className="h-9 w-9 text-[#D4AF37]" />
-                <h3 className="mt-4 font-headline text-xl tt-[#F3F4F6]">Conseil DeFi &amp; Web3</h3>
-                <p className="mt-2 text-sm leading-relaxed text-[#F3F4F6]/60">
+                <h3 className="mt-4 font-headline text-xl text-[#F3F4F6]">Conseil DeFi &amp; Web3</h3>
+                <p className="mt-2 text-sm leading-relaxed text-[#F3F6]/60">
                   Navigation experte dans la finance décentralisée, yield farming et protocoles Web3 prometteurs.
                 </p>
                 <span className="mt-4 inline-block rounded-sm bg-[#1a1200] px-2 py-0.5 text-[10px] tracking-wide text-[#D4AF37]">
@@ -170,16 +173,16 @@ export default function HomePage() {
           </svg>
         </section>
 
-     <section id="team" className="bg-[#0b0b0b] px-6 py-20 md:py-32">
+        <section id="team" className="bg-[#0b0b0b] px-6 py-20 md:py-32">
           <div className="mx-auto max-w-6xl">
             <p className="text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">L&apos;EXPERT DERRIÈRE LA MARQUE</p>
             <h2 className="mt-2 text-center font-headline text-3xl text-[#F3F4F6] md:text-5xl">A propos de moi</h2>
 
-            <div className="mx-auto mt-12 grid max-w-4xl items-start gap-12 md:grid-cols-[200px_1fr]">
+        <div className="mx-auto mt-12 grid max-w-4xl items-start gap-12 md:grid-cols-[200px_1fr]">
               <div>
                 <Image
                   src="/profil-david.png"
-                 alt="David Birota - CryptoConsult Pro"
+                  alt="David Birota - CryptoConsult Pro"
                   width={400}
                   height={533}
                   className="w-full rounded-md border border-[#1e1e1e] object-cover"
@@ -209,7 +212,7 @@ export default function HomePage() {
                 </p>
                 <div className="space-y-4 text-sm leading-relaxed text-[#F3F4F6]/60">
                   <p>Expert en stratégie patrimoniale, j&apos;accompagne une clientèle exigeante entre finance traditionnelle (TradFi) et écosystèmes crypto. Mon approche combine architecture financière, protection juridique et exécution opérationnelle.</p>
-                  <p>Plongé dans la crypto depuis 2019, j&apos;ai vécu tous les cycles de marché. Mon rôle est de servir de traducteur entre un écosystème très technique et mes clients. Que vous soyez une entreprise souhaitant diversifier votre trésorerie ou un particulier cherchant à invese vous apporte un plan d&apos;action clair et sur-mesure.</p>
+                  <p>Plongé dans la crypto depuis 2019, j&apos;ai vécu tous les cycles de marché. Mon rôle est de servir de traducteur entre un écosystème très technique et mes clients. Que vous soyez une entreprise souhaitant diversifier votre trésorerie ou un particulier cherchant à investir sereinemte un plan d&apos;action clair et sur-mesure.</p>
                 </div>
                 <a href="#reservation" className="mt-6 inline-block rounded-sm bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-[#0A0A0A] transition hover:brightness-110">
                   Première analyse gratuite
@@ -229,7 +232,7 @@ export default function HomePage() {
         <section id="reservation" className="bg-[#070707] px-6 py-20 md:py-32">
           <div className="mx-auto max-w-6xl">
             <p className="text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">PLANIFIEZ VOTRE APPEL</p>
-            <h2 className="mt-2 text-cente font-headline text-3xl text-[#F3F4F6] md:text-5xl">Appel Stratégique</h2>
+            <h2 className="mt-2 text-center font-headline text-xl text-[#F3F4F6] md:text-5xl">Appel Stratégique</h2>
             <p className="mt-3 text-center text-[#F3F4F6]/50">Première consultation 100% gratuite · Choisissez votre créneau ci-dessous</p>
 
             <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-md border border-[#D4AF37]/20 bg-[#0f0f0f] p-6 md:p-10">
@@ -242,7 +245,7 @@ export default function HomePage() {
 
       <footer className="border-t border-[#111] bg-[#030303] py-8">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-8">
-          <p className="text-[9px] text-[#252525]">© 2026 CryptoConsult Pro · Toits réservés</p>
+          <p className="text-[9px] text-[#252525]">© 2026 CryptoConsult Pro s droits réservés</p>
           <div className="flex flex-wrap items-center gap-5">
             <a href="#" className="text-[9px] text-[#2a2a2a] transition-colors hover:text-[#D4AF37]">Mentions légales</a>
             <a href="#" className="text-[9px] text-[#2a2a2a] transition-colors hover:text-[#D4AF37]">Confidentialité</a>
