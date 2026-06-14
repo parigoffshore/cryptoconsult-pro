@@ -9,8 +9,13 @@ import { ArrowLeft } from 'lucide-react';
 import type { Metadata } from 'next';
 import { format } from 'date-fns';
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const post = (await getBlogPosts()).find((p) => p.slug === params.slug);
+// 1. On définit les paramètres comme étant une Promesse (Requis par Next.js récent)
+type Params = Promise<{ slug: string }>;
+
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+  // 2. On "await" les paramètres avant d'extraire le slug
+  const resolvedParams = await params;
+  const post = (await getBlogPosts()).find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
     return {
@@ -24,8 +29,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default async function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = (await getBlogPosts()).find((p) => p.slug === params.slug);
+export default async function BlogPostPage({ params }: { params: Params }) {
+  // 3. On "await" les paramètres ici également
+  const resolvedParams = await params;
+  const post = (await getBlogPosts()).find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
     notFound();
@@ -50,10 +57,11 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                     <CardHeader>
                         <CardTitle className="text-4xl font-headline">{post.metadata.title}</CardTitle>
                         <CardDescription className="text-base">
-                            <span>{format(new Date(post.metadata.date), 'MM/dd/yyyy')}</span> | <span>By {post.metadata.author}</span>
+                            {/* Sécurité ajoutée : si "author" est manquant, il affichera "David" par défaut */}
+                            <span>{format(new Date(post.metadata.date), 'MM/dd/yyyy')}</span> | <span>By {post.metadata.author || 'David'}</span>
                         </CardDescription>
                         <div className="flex gap-2 pt-2">
-                            {post.metadata.categories.map(category => (
+                            {post.metadata.categories?.map(category => (
                                 <Badge key={category}>{category}</Badge>
                             ))}
                         </div>
@@ -69,9 +77,9 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 }
 
 export async function generateStaticParams() {
-  const posts = await getBlogPosts()
+  const posts = await getBlogPosts();
  
   return posts.map((post) => ({
     slug: post.slug,
-  }))
+  }));
 }
