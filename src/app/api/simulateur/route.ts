@@ -28,27 +28,27 @@ export async function POST(req: Request) {
 
     const pdfDirectLink = `https://drive.google.com/uc?export=download&id=${driveFileId}`;
 
-    cost emailHtmlContent = `
-      <div style="font-family: Arial, sans-serif; color: #111; line-height: 1.6; max-width: 600px; margin: 0 auto; border: 1px solid #eee; padding: 20px;">
+    const emailHtmlContent = `
+      <iv style="font-family: Arial, sans-serif; color: #111; line-height: 1.6; max-width: 600px; margin: 0 auto; border: 1px solid #eee; padding: 20px;">
         <p>Bonjour,</p>
         <p>L'analyse de vos réponses au simulateur est terminée. Votre profil d'investisseur a été identifié comme : <strong>${profileTitle}</strong>.</p>
-        <p>Ce résultat met en évidence des failles structurelles dans votre approche actuelle de l'écosystème crypto. Qu'il s'agisse de la sécurité de vos points d'accès, de l'absence de garde physique ou d'un manque de stratégie mathématique, ces vulnérabilités exposent directement votre capital.</p>
+        <p>Ce résultat met en évidence des failles structurelles dans votre approche actuelle de l'écosystème crypto. Qu'il s'agisse de la sécurité de vos points d'accès, de l'abde physique ou d'un manque de stratégie mathématique, ces vulnérabilités exposent directement votre capital.</p>
         <p>Pour corriger cela, j'ai généré votre <strong>Plan de Sortie sur mesure</strong>. Vous pouvez le télécharger via l'accès sécurisé ci-dessous :</p>
         <p style="text-align: center; margin: 30px 0;">
-          <a href="${pdfDirectLink}" style="background-color: #d4af37; colorpx; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block;">Télécharger mon Plan de Sortie (PDF)</a>
+          <a href="${pdfDirectLink}" style="background-color: #d4af37; color: #000; padding: 14px 24px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block;">Télécharger mon Plan de Sortie (PDF)</a>
         </p>
         <p><strong>La prochaine étape : L'Exécution.</strong></p>
-        <p>Ce guide vous fournit la théorie. Cependant, la mise en place d'un tel système exige une rigueur technique absolue pour éviter toute perte de fonds irréversible.</p>
+        <p>Ce guide vous fournit la théorie. Cependant, la mise en place d'un tel système exige une rigueur technique absolue pour éviter toute perte de.</p>
         <p>Vous disposez d'une fenêtre de 48 heures pour réserver un appel de découverte stratégique. Cet appel nous permettra d'auditer vos positions actuelles et de planifier l'intégration de votre nouvelle infrastructure.</p>
         <p style="text-align: center; margin: 30px 0;">
           <a href="https://calendly.com/davidcrypto507/30min" style="background-color: #111; color: #d4af37; padding: 14px 24px; text-decoration: none; font-weight: bold; border-radius: 4px; border: 1px solid #d4af37; display: inline-block;">Réserver mon audit d'implémentation</a>
         </p>
         <p>Cordialement,</p>
-        <p>strong><br>Fondateur de Crypto Consult Pro<br>cryptoconsultme@gmail.com | +230 5474-1839</p>
+        <p><strong>David</strong><br>Fondateur de Crypto Consult Pro<br>cryptoconsultme@gmail.com | +230 5474-1839</p>
       </div>
     `;
 
-    const brevoResponse = await fetch('https://api.brevo.com/v3/smtp/email', {
+    const brevoResponse = await fetch('htti.brevo.com/v3/smtp/email', {
       method: 'POST',
       headers: {
         'accept': 'application/json',
@@ -72,7 +72,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ success: true, message: "Email envoyé avec succès." });
 
   } catch (error) {
-    console.error("Erreur critique Route :", error);
+    console.error("Erreur critique Route API:", error);
     return NextResponse.json({ error: "Erreur serveur interne" }, { status: 500 });
   }
 }
