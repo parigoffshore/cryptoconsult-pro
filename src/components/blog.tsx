@@ -18,12 +18,21 @@ export default function Blog({ posts }: BlogProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const allCategories = [...new Set(posts.flatMap(post => post.metadata.categories))];
+  // SÉCURITÉ 1 : Valeur de repli (fallback) si "posts" n'est pas encore disponible
+  const safePosts = posts || [];
 
-  const filteredPosts = posts.filter(post => {
-    const matchesSearch = post.metadata.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          post.metadata.summary.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory ? post.metadata.categories.includes(selectedCategory) : true;
+  // SÉCURITÉ 2 : Chaînage optionnel sur les métadonnées pour éviter les plantages
+  const allCategories = [...new Set(safePosts.flatMap(post => post?.metadata?.categories || []))];
+
+  const filteredPosts = safePosts.filter(post => {
+    const title = post?.metadata?.title || '';
+    const summary = post?.metadata?.summary || '';
+    const categories = post?.metadata?.categories || [];
+
+    const matchesSearch = title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          summary.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesCategory = selectedCategory ? categories.includes(selectedCategory) : true;
+    
     return matchesSearch && matchesCategory;
   });
 
@@ -62,28 +71,44 @@ export default function Blog({ posts }: BlogProps) {
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {filteredPosts.map(post => (
-          <Link href={`/blog/${post.slug}`} key={post.slug} className="group">
-            <Card className="flex h-full flex-col rounded-md border border-[#1a1a1a] bg-[#0f0f0f] transition-colors hover:border-[#D4AF37]/30">
-              <CardHeader>
-                <CardTitle className="text-[#d0cac0] transition-colors group-hover:text-[#D4AF37]">{post.metadata.title}</CardTitle>
-                <CardDescription className="text-[#404040]">{format(new Date(post.metadata.date), 'MM/dd/yyyy')}</CardDescription>
-              </CardHeader>
-              <CardContent className="flex-1">
-                <p className="text-[#404040]">{post.metadata.summary}</p>
-              </CardContent>
-              <CardFooter className="flex-wrap gap-2">
-                {post.metadata.categories.map(category => (
-                  <Badge key={category} variant="secondary" className="border-none bg-[#1a1200] text-[#D4AF37]">{category}</Badge>
-                ))}
-              </CardFooter>
-            </Card>
-          </Link>
-        ))}
+        {filteredPosts.map(post => {
+          // SÉCURITÉ 3 : Prévenir les erreurs de formatage si la date est mal générée
+          let formattedDate = '';
+          try {
+            if (post?.metadata?.date) {
+              formattedDate = format(new Date(post.metadata.date), 'MM/dd/yyyy');
+            }
+          } catch (e) {
+            console.error("Erreur formatage date:", e);
+          }
+
+          return (
+            <Link href={`/blog/${post?.slug || '#'}`} key={post?.slug || Math.random().toString()} className="group">
+              <Card className="flex h-full flex-col rounded-md border border-[#1a1a1a] bg-[#0f0f0f] transition-colors hover:border-[#D4AF37]/30">
+                <CardHeader>
+                  <CardTitle className="text-[#d0cac0] transition-colors group-hover:text-[#D4AF37]">
+                    {post?.metadata?.title || 'Titre indisponible'}
+                  </CardTitle>
+                  <CardDescription className="text-[#404040]">{formattedDate}</CardDescription>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <p className="text-[#404040]">{post?.metadata?.summary || ''}</p>
+                </CardContent>
+                <CardFooter className="flex-wrap gap-2">
+                  {(post?.metadata?.categories || []).map(category => (
+                    <Badge key={category} variant="secondary" className="border-none bg-[#1a1200] text-[#D4AF37]">
+                      {category}
+                    </Badge>
+                  ))}
+                </CardFooter>
+              </Card>
+            </Link>
+          );
+        })}
       </div>
        {filteredPosts.length === 0 && (
           <div className="text-center col-span-full py-16">
-            <p className="text-lg text-[#404040]">No posts found.</p>
+            <p className="text-lg text-[#404040]">Aucun article disponible pour le moment.</p>
           </div>
        )}
     </div>
