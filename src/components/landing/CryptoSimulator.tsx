@@ -21,11 +21,11 @@ const questions = [
   {
     q: "Si votre portefeuille baisse fortement pendant un moment, que faites-vous le plus probablement ?",
     options: ["Je préfère sortir rapidement", "J’attends mais cela m’inquiète", "Je garde mon plan sans paniquer", "Je cherche si c’est une opportunité"],
-    justification: "Cette donnée révèle votre gestion émotionnelle face aux baisses et dicte le niveau d'automatisation requis pour protéger vos fonds."
+    justification: "Cette donnstion émotionnelle face aux baisses et dicte le niveau d'automatisation requis pour protéger vos fonds."
   },
   {
     q: "Quel est votre niveau actuel en crypto ?",
-    options: ["Je débute complètement", s cryptos", "Je comprends les bases et je veux structurer", "Je suis déjà actif et je veux aller plus loin"],
+    options: ["Je débute complètement", "J’ai déjà acheté quelques cryptos", "Je comprends les bases et je veux structurer", "Je suis déjà actif et je veux aller plus loin"],
     justification: "L'identification de votre maîtrise technique permet de concevoir une architecture de sécurité adaptée."
   },
   {
@@ -34,13 +34,13 @@ const questions = [
     justification: "Le volume de capital exige des infrastructures différentes : les protocoles de sécurisation évoluent selon les montants."
   },
   {
-    q: "Quel type d’approche vous correspond le mieux ?",
-    options: ["Quelque chose de simple, stable et encadré", "Un mélange entre sécurité et opportunités", "Une approche plus innovante pour le rendement", "Une approche opportuniste, plus active"],
+    q: "Quel type d’    options: ["Quelque chose de simple, stable et encadré", "Un mélange entre sécurité et opportunités", "Une approche plus innovante pour le rendement", "Une approche opportuniste, plus active"],
     justification: "Cela oriente le choix stratégique entre une détention passive et une exploitation active de l'écosystème."
   },
   {
-    q: "Aujourd’hui, deptions: ["D’être rassuré et guidé pas à pas", "D’un cadre clair pour investir avec méthode", "D’identifier de nouvelles opportunités", "D’une stratégie plus offensive et réactive"],
-    justification: "C'est l'indicateur final pour définir le plan d'action qui corrigera efficacement vos lacunes actuelles."
+    q: "Aujourd’hui, de quoi avez-vous le plus besoin ?",
+    options: ["D’être rassuré et guidé pas à pas", "D’un cadre clair pour investir avec méthode", "D’identifier de nouvelles opportunités", "D’une stratégie plus offensive et réactive"],
+    justification: "C'est l'indicateur final pour définir le plan d'actionvos lacunes actuelles."
   }
 ];
 
@@ -62,7 +62,8 @@ export default function CryptoSimulator() {
   const [consent, setConsent] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleChoice = (choiceIndex: nonst newChoices = [...choices];
+  const handleChoice = (choiceIndex: number) => {
+    const newChoices = [...choices];
     newChoices[step] = choiceIndex;
     setChoices(newChoices);
     setStep(step + 1);
@@ -74,9 +75,10 @@ export default function CryptoSimulator() {
 
     let totalScores = [0, 0, 0];
     for (let i = 0; i < 8; i++) {
-      totalScores[0] += scoringMatrix[i][choices[i]][0];
-      totalScores[1] += scoringMatrix[i][choices[i]][1];
-      totalScores[2] += scoringMatrix[i][choices[i]][2];
+      const choice = choices[i] ?? 0;
+      totalScores[0] += scoringMatrix[i][choice][0];
+      totalScores[1] += scoringMatrix[i][choice][1];
+      totalScores[2] += scoringMatrix[i][choice][2];
     }
 
     let maxScore = Math.max(...totalScores);
@@ -102,7 +104,7 @@ export default function CryptoSimulator() {
   };
 
   if (submitted) {
-    retrn (
+    return (
       <div className="mx-auto max-w-2xl rounded-md border border-[#D4AF37]/40 bg-[#0a0a0a] p-10 text-center shadow-2xl">
         <h3 className="mb-4 font-headline text-2xl text-[#D4AF37]">Données Sécurisées.</h3>
         <p className="text-[#F3F4F6]/70">L&apos;analyse de votre profil est terminée. Votre Plan de Sortie stratégique vient d&apos;être généré et envoyé sur votre boîte mail.<br/><br/>Veuillez vérifier vos courriers indésirables si vous ne le recevez pas d&apos;ici quelques minutes.</p>
@@ -112,11 +114,10 @@ export default function CryptoSimulator() {
 
   return (
     <div className="mx-auto max-w-2xl rounded-md border border-[#1e1e1e] bg-[#0a0a0a] p-8 shadow-2xl">
-      <h2 className="mb-2 text-center font-headline text-3xl text-white">Audit de <span className="italic text-[#D4AF37]">Souveraineté</span></h2>
-      
-      {step < 8 ? (
+      <h2 className="mb-2 text-center font-headline text-3xl text-white">Audit de <span className="italic text-[#D4AF37]">Souveraineté</span>    {step < 8 ? (
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-          <p className="mb-8 text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">Question {step          <p className="mb-6 text-center text-lg font-medium text-[#F3F4F6]">{questions[step].q}</p>
+          <p className="mb-8 text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">Question {step + 1} / 8</p>
+          <p className="mb-6 text-center text-lg font-medium text-[#F3F4F6]">{questions[step].q}</p>
           
           <div className="flex flex-col gap-3">
             {questions[step].options.map((opt, idx) => (
@@ -137,7 +138,7 @@ export default function CryptoSimulator() {
       ) : (
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
           <p className="mb-8 text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">Diagnostic Terminé</p>
-          <p className="mb6 text-center text-lg font-medium text-[#F3F4F6]">Où devons-nous envoyer votre Plan de Sortie et l&apos;analyse de vos vulnérabilités ?</p>
+          <p className="mb-6 text-center text-lg font-medium text-[#F3F4F6]">Où devons-nous envoyer votre Plan de Sortie et l&apos;analyse de vos vulnérabilités ?</p>
           
           <input
             type="email"
@@ -150,12 +151,13 @@ export default function CryptoSimulator() {
           
           <label className="mb-6 flex items-start gap-3 text-xs text-[#F3F4F6]/50 text-left">
             <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5" />
-            <span>En validant ce formulaire, j&apos;accepte de recevoir mon diagnostic et des communications stratégiques de la part de Crypto Consult Pro. Vos données restent strictement confidentielles.</span>
+            <span>En validant ce formulaire, j&apos;accepte de recevoir mon diagnostic et des communicationratégiques de la part de Crypto Consult Pro. Vos données restent strictement confidentielles.</span>
           </label>
           
           <button
             onClick={submitSimulation}
-            className="w-full rounded-md bg-[#D4AF37] p-4 text-sm font-bold text-[#0A0A0A] transition hover:brightness-110 uppercase tracking-wide        >
+            className="w-full rounded-md bg-[#D4AF37] p-4 text-sm font-bold text-[#0A0A0A] transition hover:brightness-110 uppercase tracking-wider"
+          >
             Recevoir le diagnostic
           </button>
         </div>
