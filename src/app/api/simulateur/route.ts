@@ -48,8 +48,7 @@ export async function POST(req: Request) {
       </div>
     `;
 
-    const brevoResponse = await fetch('htti.brevo.com/v3/smtp/email', {
-      method: 'POST',
+const brevoResponse = await fetch('https://api.brevo.com/v3/smtp/email', {      method: 'POST',
       headers: {
         'accept': 'application/json',
         'api-key': process.env.BREVO_API_KEY as string,
