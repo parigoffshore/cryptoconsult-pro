@@ -1,8 +1,14 @@
 ---
 title: "Bitcoin : Quand Wall Street finit par admettre l’évidence (et que ça pique)"
 date: "2026-10-21"
-summary: "Il y a encore quelques années, les banquiers en costume trois-pièces nous expliquaient, avec ce petit sourire condescendant propre aux experts du dimanche, que le Bitcoin était une "bulle" ou une "gad..."
-categories: ["Éducation"]
+summary: "Il y a encore quelques années, les banquiers en costume trois-pièces nous expliquaient, avec ce petit sourire condescendant propre aux experts du dimanche, que le Bitcoin était une 'bul..."
+excerpt: "Il y a encore quelques années, les banquiers en costume trois-pièces nous expliquaient, avec ce petit sourire condescendant propre aux experts du dimanche, que le Bitcoin était une 'bul..."
+description: "Il y a encore quelques années, les banquiers en costume trois-pièces nous expliquaient, avec ce petit sourire condescendant propre aux experts du dimanche, que le Bitcoin était une 'bul..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-10-21-bitcoin-quand-wall-street-finit-par-admettre-l-evidence-et-que-ca-pique"
+published: true
 ---
 
 Il y a encore quelques années, les banquiers en costume trois-pièces nous expliquaient, avec ce petit sourire condescendant propre aux experts du dimanche, que le Bitcoin était une "bulle" ou une "gadget pour spéculateurs". Aujourd'hui, on observe un spectacle assez savoureux : les institutions ne se contentent plus de regarder le train passer, elles achètent les rails.
