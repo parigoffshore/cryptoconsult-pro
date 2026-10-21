@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre au Protocole : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation Bancaire"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné, diversifié, peut-être investi dans l'immobilier locatif. Et pourtant, quelque chose cloche. Votre banque vous offre 3 % sur votre livret pend..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné, diversifié, peut-être investi dans l'immobilier locatif. Et pourtant, quelque chose cloche. Votre banque vous offre 3 % sur votre livret pend..."
+description: "Vous avez travaillé dur. Vous avez épargné, diversifié, peut-être investi dans l'immobilier locatif. Et pourtant, quelque chose cloche. Votre banque vous offre 3 % sur votre livret pend..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-de-la-pierre-au-protocole-comment-construire-une-r"
+published: true
 ---
 
 ---
