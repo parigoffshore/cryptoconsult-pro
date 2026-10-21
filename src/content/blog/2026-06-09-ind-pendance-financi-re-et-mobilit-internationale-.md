@@ -1,8 +1,14 @@
 ---
 title: "Indépendance Financière et Mobilité Internationale : Ce que les Actifs Numériques Changent Vraiment pour les Investisseurs Européens"
 date: "2026-06-09"
+summary: "Imaginez que vous possédiez un immeuble de rapport à Paris. Pour le vendre, le transférer ou en percevoir les loyers depuis Lisbonne, Dubaï ou Montréal, vous devrez naviguer entre notai..."
+excerpt: "Imaginez que vous possédiez un immeuble de rapport à Paris. Pour le vendre, le transférer ou en percevoir les loyers depuis Lisbonne, Dubaï ou Montréal, vous devrez naviguer entre notai..."
+description: "Imaginez que vous possédiez un immeuble de rapport à Paris. Pour le vendre, le transférer ou en percevoir les loyers depuis Lisbonne, Dubaï ou Montréal, vous devrez naviguer entre notai..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-ind-pendance-financi-re-et-mobilit-internationale-"
+published: true
 ---
 
 ---
