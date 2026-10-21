@@ -1,8 +1,14 @@
 ---
 title: "De l'Immobilier au Yield Farming : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année qui passe, votre livret d'épargne vous rend un peu moins que ce que l'inflation vous prend. Un taux..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année qui passe, votre livret d'épargne vous rend un peu moins que ce que l'inflation vous prend. Un taux..."
+description: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année qui passe, votre livret d'épargne vous rend un peu moins que ce que l'inflation vous prend. Un taux..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-immobilier-au-yield-farming-comment-construir"
+published: true
 ---
 
 ---
