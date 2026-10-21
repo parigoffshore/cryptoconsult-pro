@@ -1,8 +1,14 @@
 ---
 title: "La Psychologie de l'Investisseur Défensif : Pourquoi la Vraie Richesse Crypto Se Construit dans la Sécurité, Pas dans la Spéculation"
 date: "2026-06-10"
-category: "Investissement"
-author: "David"
+summary: "La grande majorité des investisseurs qui entrent dans l'univers des actifs numériques commettent la même erreur fondamentale : ils confondent l'excitation d'un marché volatile avec une ..."
+excerpt: "La grande majorité des investisseurs qui entrent dans l'univers des actifs numériques commettent la même erreur fondamentale : ils confondent l'excitation d'un marché volatile avec une ..."
+description: "La grande majorité des investisseurs qui entrent dans l'univers des actifs numériques commettent la même erreur fondamentale : ils confondent l'excitation d'un marché volatile avec une ..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-10-la-psychologie-de-l-investisseur-d-fensif-pourquoi"
+published: true
 ---
 
 ---
