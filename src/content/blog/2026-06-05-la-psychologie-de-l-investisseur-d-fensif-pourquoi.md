@@ -1,8 +1,14 @@
 ---
 title: "La Psychologie de l'Investisseur Défensif : Pourquoi la Vraie Richesse Crypto Se Construit dans la Sécurité, Pas dans la Spéculation"
 date: "2026-06-05"
-category: "Investissement"
-author: "David"
+summary: "La plupart des investisseurs qui entrent dans l'univers des cryptomonnaies rêvent de multiplier leur mise par dix en quelques semaines. Ils suivent des influenceurs, achètent au sommet,..."
+excerpt: "La plupart des investisseurs qui entrent dans l'univers des cryptomonnaies rêvent de multiplier leur mise par dix en quelques semaines. Ils suivent des influenceurs, achètent au sommet,..."
+description: "La plupart des investisseurs qui entrent dans l'univers des cryptomonnaies rêvent de multiplier leur mise par dix en quelques semaines. Ils suivent des influenceurs, achètent au sommet,..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-la-psychologie-de-l-investisseur-d-fensif-pourquoi"
+published: true
 ---
 
 ---
