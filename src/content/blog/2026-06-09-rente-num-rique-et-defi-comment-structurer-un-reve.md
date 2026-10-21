@@ -1,8 +1,14 @@
 ---
 title: "Rente Numérique et DeFi : Comment Structurer un Revenu Passif Sécurisé Face à l'Inflation Bancaire"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Il y a quelques années encore, placer son argent sur un livret bancaire ou dans un fonds obligataire suffisait à préserver son patrimoine. Aujourd'hui, ce modèle est silencieusement bri..."
+excerpt: "Il y a quelques années encore, placer son argent sur un livret bancaire ou dans un fonds obligataire suffisait à préserver son patrimoine. Aujourd'hui, ce modèle est silencieusement bri..."
+description: "Il y a quelques années encore, placer son argent sur un livret bancaire ou dans un fonds obligataire suffisait à préserver son patrimoine. Aujourd'hui, ce modèle est silencieusement bri..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-rente-num-rique-et-defi-comment-structurer-un-reve"
+published: true
 ---
 
 ---
