@@ -1,8 +1,14 @@
 ---
 title: "Indépendance Financière Sans Frontières : Comment les Actifs Numériques Redéfinissent la Gestion de Patrimoine à l'International"
 date: "2026-06-09"
+summary: "Imaginez un instant que vous souhaitiez transférer une partie de votre patrimoine vers un compte bancaire à l'étranger. Vous connaissez la procédure : formulaires administratifs, délais..."
+excerpt: "Imaginez un instant que vous souhaitiez transférer une partie de votre patrimoine vers un compte bancaire à l'étranger. Vous connaissez la procédure : formulaires administratifs, délais..."
+description: "Imaginez un instant que vous souhaitiez transférer une partie de votre patrimoine vers un compte bancaire à l'étranger. Vous connaissez la procédure : formulaires administratifs, délais..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-ind-pendance-financi-re-sans-fronti-res-comment-le"
+published: true
 ---
 
 ---
