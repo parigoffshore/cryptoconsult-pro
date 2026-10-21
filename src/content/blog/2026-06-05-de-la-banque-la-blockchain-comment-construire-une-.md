@@ -1,8 +1,14 @@
 ---
 title: "De la Banque à la Blockchain : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez économisé. Vous avez peut-être même investi dans de l'immobilier ou des fonds en euros. Et pourtant, chaque année, vous regardez votre relevé bancaire..."
+excerpt: "Vous avez travaillé dur. Vous avez économisé. Vous avez peut-être même investi dans de l'immobilier ou des fonds en euros. Et pourtant, chaque année, vous regardez votre relevé bancaire..."
+description: "Vous avez travaillé dur. Vous avez économisé. Vous avez peut-être même investi dans de l'immobilier ou des fonds en euros. Et pourtant, chaque année, vous regardez votre relevé bancaire..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-de-la-banque-la-blockchain-comment-construire-une-"
+published: true
 ---
 
 ---
