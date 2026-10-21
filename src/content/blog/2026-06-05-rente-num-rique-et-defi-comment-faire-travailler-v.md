@@ -1,8 +1,14 @@
 ---
 title: "Rente Numérique et DeFi : Comment Faire Travailler Votre Capital à l'Ère de l'Inflation Bancaire"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, l'inflation grignote silencieusement le pouvoir d'achat de votre livret A, de votre fonds en euros..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, l'inflation grignote silencieusement le pouvoir d'achat de votre livret A, de votre fonds en euros..."
+description: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, l'inflation grignote silencieusement le pouvoir d'achat de votre livret A, de votre fonds en euros..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-rente-num-rique-et-defi-comment-faire-travailler-v"
+published: true
 ---
 
 ---
