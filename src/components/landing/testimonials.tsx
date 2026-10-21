@@ -14,23 +14,23 @@ const testimonials = [
   {
     initials: "SM",
     name: "Sofia Martinez",
-    role: "Restauratrice",
+    role: "Dirigeante d'entreprise",
     quote:
-      "Leurs conseils m'ont permis de diversifier mes investissements et de sécuriser mes actifs tout en maximisant mes rendements.",
+      "Leurs conseils m'ont permis de diversifier mes investissements et de sécuriser mes actifs sur clé matérielle tout en maximisant mes rendements.",
   },
   {
     initials: "TVS",
     name: "Thomas Van Steiner",
     role: "Entrepreneur",
     quote:
-      "J'ai appris énormément sur la sécurité et la diversification. J'investis maintenant en crypto avec beaucoup plus de confiance.",
+      "J'ai appris énormément sur la sécurité Non-Custodiale et la gestion des cycles. J'investis maintenant avec une vraie méthode institutionnelle.",
   },
   {
     initials: "AL",
     name: "Amélie Laurent",
     role: "Chef d'entreprise",
     quote:
-      "Un accompagnement professionnel qui m'a permis d'éviter les pièges classiques du marché et de bâtir une stratégie long terme solide.",
+      "Un accompagnement professionnel qui m'a permis d'éviter les pièges de dilution du marché et de bâtir une stratégie long terme solide.",
   },
 ];
 
@@ -45,8 +45,7 @@ export default function Testimonials() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % 2);
-    }, 4000);
-
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 
@@ -54,47 +53,51 @@ export default function Testimonials() {
   const goNext = () => setCurrentIndex((prev) => (prev + 1) % 2);
 
   return (
-    <section id="testimonials" className="bg-[#060606] py-20 md:py-32">
-      <div className="mx-auto max-w-6xl px-6">
-        <p className="text-center text-xs uppercase tracking-[0.2em] text-[#D4AF37]">
-          ILS NOUS FONT CONFIANCE
-        </p>
-        <h2 className="mt-2 text-center font-headline text-3xl text-[#F3F4F6] md:text-5xl">
-          Ce que disent nos clients
-        </h2>
-        <p className="mt-3 text-center text-[#F3F4F6]/50">
-          Histoires vraies de clients qui se sont associés à nous
-        </p>
+    <section id="testimonials" className="bg-gold-champagne py-20 md:py-28 border-t border-[#0A0A0A]/15">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="text-center">
+          <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
+            Ils nous font Confiance
+          </span>
+          <h2 className="mt-3 font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
+            Ce que disent nos Clients
+          </h2>
+          <p className="mt-3 text-sm sm:text-base font-medium text-[#2A2005]">
+            Retours d&apos;expérience d&apos;investisseurs et dirigeants accompagnés par CryptoConsult Pro
+          </p>
+        </div>
 
         <div className="mt-12">
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-2">
             {slides[currentIndex].map((testimonial) => (
               <article
                 key={testimonial.name}
-                className="rounded-md border border-[#1a1a1a] bg-[#0f0f0f] p-6"
+                className="onyx-card rounded-xl p-8 flex flex-col justify-between"
               >
-                <div className="mb-3 flex gap-1">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <span
-                      key={i}
-                      className="h-[12px] w-[12px] bg-[#D4AF37]"
-                      style={{
-                        clipPath:
-                          "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
-                      }}
-                    />
-                  ))}
+                <div>
+                  <div className="mb-4 flex gap-1">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span
+                        key={i}
+                        className="h-3.5 w-3.5 bg-[#D4AF37]"
+                        style={{
+                          clipPath:
+                            "polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)",
+                        }}
+                      />
+                    ))}
+                  </div>
+                  <p className="mb-6 text-base italic leading-relaxed text-gray-200">
+                    “{testimonial.quote}”
+                  </p>
                 </div>
-                <p className="mb-5 text-sm italic leading-relaxed text-[#F3F4F6]/50">
-                  “{testimonial.quote}”
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#1a1200] text-[10px] font-bold text-[#D4AF37]">
+                <div className="flex items-center gap-3.5 border-t border-white/10 pt-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#D4AF37] text-xs font-black text-[#0A0A0A]">
                     {testimonial.initials}
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-[#d0cac0]">{testimonial.name}</p>
-                    <p className="text-[10px] text-[#404040]">{testimonial.role}</p>
+                    <p className="text-sm font-bold text-white">{testimonial.name}</p>
+                    <p className="text-xs text-[#D4AF37]">{testimonial.role}</p>
                   </div>
                 </div>
               </article>
@@ -106,9 +109,9 @@ export default function Testimonials() {
               type="button"
               aria-label="Témoignages précédents"
               onClick={goPrev}
-              className="flex h-8 w-8 items-center justify-center rounded-full border border-[#1c1c1c] bg-[#0f0f0f] text-[#666] transition-colors hover:border-[#D4AF37] hover:text-[#D4AF37]"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0A0A0A] text-[#D4AF37] shadow-md transition hover:scale-105"
             >
-              <ChevronLeft className="h-4 w-4" />
+              <ChevronLeft className="h-5 w-5" />
             </button>
 
             <div className="flex items-center gap-2">
@@ -120,8 +123,8 @@ export default function Testimonials() {
                   onClick={() => setCurrentIndex(dot)}
                   className={
                     dot === currentIndex
-                      ? "h-1.5 w-4 rounded-sm bg-[#D4AF37]"
-                      : "h-1.5 w-1.5 rounded-full bg-[#1c1c1c]"
+                      ? "h-2.5 w-8 rounded-full bg-[#0A0A0A]"
+                      : "h-2.5 w-2.5 rounded-full bg-[#0A0A0A]/40"
                   }
                 />
               ))}
@@ -131,17 +134,13 @@ export default function Testimonials() {
               type="button"
               aria-label="Témoignages suivants"
               onClick={goNext}
-              className="flex h-8 w-8 items-center justify-center rounded-full border border-[#1c1c1c] bg-[#0f0f0f] text-[#666] transition-colors hover:border-[#D4AF37] hover:text-[#D4AF37]"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-[#0A0A0A] text-[#D4AF37] shadow-md transition hover:scale-105"
             >
-              <ChevronRight className="h-4 w-4" />
+              <ChevronRight className="h-5 w-5" />
             </button>
           </div>
         </div>
       </div>
-
-      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" className="mt-20 block w-full -mb-px">
-        <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,10 1440,40 L1440,80 L0,80 Z" fill="#090909" />
-      </svg>
     </section>
   );
 }
