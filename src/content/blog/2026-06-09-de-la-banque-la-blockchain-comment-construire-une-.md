@@ -1,8 +1,14 @@
 ---
 title: "De la Banque à la Blockchain : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Guide stratégique pour l'investisseur défensif européen..."
+excerpt: "Guide stratégique pour l'investisseur défensif européen..."
+description: "Guide stratégique pour l'investisseur défensif européen..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-la-banque-la-blockchain-comment-construire-une-"
+published: true
 ---
 
 *Guide stratégique pour l'investisseur défensif européen*
