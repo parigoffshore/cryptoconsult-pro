@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre au Protocole : Comment Structurer une Rente Numérique Sécurisée Face à l'Inflation Bancaire"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous connaissez ce sentiment. Vous regardez votre relevé bancaire en fin de mois, vous calculez le rendement de votre épargne, et vous réalisez que l'inflation grignote silencieusement ..."
+excerpt: "Vous connaissez ce sentiment. Vous regardez votre relevé bancaire en fin de mois, vous calculez le rendement de votre épargne, et vous réalisez que l'inflation grignote silencieusement ..."
+description: "Vous connaissez ce sentiment. Vous regardez votre relevé bancaire en fin de mois, vous calculez le rendement de votre épargne, et vous réalisez que l'inflation grignote silencieusement ..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-la-pierre-au-protocole-comment-structurer-une-r"
+published: true
 ---
 
 ---
