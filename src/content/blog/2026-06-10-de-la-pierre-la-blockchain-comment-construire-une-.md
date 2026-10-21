@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre à la Blockchain : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-10"
-category: "Finance"
-author: "David"
+summary: "Par votre consultant financier senior | Guide intemporel pour investisseurs défensifs..."
+excerpt: "Par votre consultant financier senior | Guide intemporel pour investisseurs défensifs..."
+description: "Par votre consultant financier senior | Guide intemporel pour investisseurs défensifs..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-10-de-la-pierre-la-blockchain-comment-construire-une-"
+published: true
 ---
 
 *Par votre consultant financier senior | Guide intemporel pour investisseurs défensifs*
