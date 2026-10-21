@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre au Protocole : Comment Construire une Rente Numérique Sécurisée Face à l'Érosion Monétaire"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Imaginez que vous possédiez un appartement bien situé, soigneusement entretenu, et qu'un matin vous découvriez que sa valeur réelle — celle que vous pouvez dépenser — a fondu de 3 à 4 %..."
+excerpt: "Imaginez que vous possédiez un appartement bien situé, soigneusement entretenu, et qu'un matin vous découvriez que sa valeur réelle — celle que vous pouvez dépenser — a fondu de 3 à 4 %..."
+description: "Imaginez que vous possédiez un appartement bien situé, soigneusement entretenu, et qu'un matin vous découvriez que sa valeur réelle — celle que vous pouvez dépenser — a fondu de 3 à 4 %..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-la-pierre-au-protocole-comment-construire-une-r"
+published: true
 ---
 
 ---
