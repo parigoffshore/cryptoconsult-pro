@@ -1,8 +1,14 @@
 ---
 title: "De l'Immobilier Locatif à la DeFi : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné, diversifié, peut-être investi dans la pierre. Et pourtant, chaque année, l'inflation grignote silencieusement le pouvoir d'achat de vos liqui..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné, diversifié, peut-être investi dans la pierre. Et pourtant, chaque année, l'inflation grignote silencieusement le pouvoir d'achat de vos liqui..."
+description: "Vous avez travaillé dur. Vous avez épargné, diversifié, peut-être investi dans la pierre. Et pourtant, chaque année, l'inflation grignote silencieusement le pouvoir d'achat de vos liqui..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-immobilier-locatif-la-defi-comment-construire"
+published: true
 ---
 
 ---
