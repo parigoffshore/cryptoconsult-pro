@@ -1,8 +1,14 @@
 ---
 title: "Liberté sans Frontières : Comment les Actifs Numériques Révolutionnent la Gestion de Patrimoine International"
 date: "2026-06-09"
+summary: "Imaginez un instant que vous puissiez transférer l'équivalent de la valeur d'un appartement parisien à un notaire à Lisbonne, un dimanche à minuit, en moins de dix minutes, sans intermé..."
+excerpt: "Imaginez un instant que vous puissiez transférer l'équivalent de la valeur d'un appartement parisien à un notaire à Lisbonne, un dimanche à minuit, en moins de dix minutes, sans intermé..."
+description: "Imaginez un instant que vous puissiez transférer l'équivalent de la valeur d'un appartement parisien à un notaire à Lisbonne, un dimanche à minuit, en moins de dix minutes, sans intermé..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-libert-sans-fronti-res-comment-les-actifs-num-riqu"
+published: true
 ---
 
 ---
