@@ -1,8 +1,14 @@
 ---
 title: "De l'Épargne Bancaire à la Rente Numérique : Comment Structurer un Revenu Passif Solide Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez économisé avec discipline. Et pourtant, chaque année qui passe, vous regardez votre relevé bancaire avec le même sentiment inconfortable : votre éparg..."
+excerpt: "Vous avez travaillé dur. Vous avez économisé avec discipline. Et pourtant, chaque année qui passe, vous regardez votre relevé bancaire avec le même sentiment inconfortable : votre éparg..."
+description: "Vous avez travaillé dur. Vous avez économisé avec discipline. Et pourtant, chaque année qui passe, vous regardez votre relevé bancaire avec le même sentiment inconfortable : votre éparg..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-pargne-bancaire-la-rente-num-rique-comment-st"
+published: true
 ---
 
 ---
