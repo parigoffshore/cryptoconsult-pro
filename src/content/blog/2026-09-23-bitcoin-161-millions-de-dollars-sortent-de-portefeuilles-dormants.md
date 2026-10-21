@@ -1,8 +1,14 @@
 ---
 title: "Bitcoin : 161 millions de dollars sortent de portefeuilles dormants"
 date: "2026-09-23"
-summary: "Vous pensez que votre épargne est parfaitement protégée sur un Livret A à 3 % ?"
-categories: ["Éducation"]
+summary: "Vous pensez que votre épargne est parfaitement protégée sur un Livret A à 3 % ?..."
+excerpt: "Vous pensez que votre épargne est parfaitement protégée sur un Livret A à 3 % ?..."
+description: "Vous pensez que votre épargne est parfaitement protégée sur un Livret A à 3 % ?..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-09-23-bitcoin-161-millions-de-dollars-sortent-de-portefeuilles-dormants"
+published: true
 ---
 
 Vous pensez que votre épargne est parfaitement protégée sur un Livret A à 3 % ?
