@@ -13,6 +13,32 @@ interface BlogProps {
   posts: BlogPost[];
 }
 
+function getCardCover(title: string = '', index: number = 0, customImg?: string) {
+  if (customImg && customImg.startsWith('/images/blog/')) return customImg;
+  const t = title.toLowerCase();
+  let label = "THÈSE MACRO & PATRIMOINE";
+  if (t.includes('defi') || t.includes('rente') || t.includes('yield')) label = "DEFI & RENDEMENT";
+  else if (t.includes('sec') || t.includes('etf') || t.includes('wall street')) label = "ANALYSE INSTITUTIONNELLE";
+  else if (t.includes('pierre') || t.includes('immo')) label = "INGÉNIERIE PATRIMONIALE";
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320">
+    <defs>
+      <linearGradient id="g${index}" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#070707"/>
+        <stop offset="55%" stop-color="#171204"/>
+        <stop offset="100%" stop-color="#090909"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="320" fill="url(#g${index})"/>
+    <path d="M 30 260 Q 180 220, 290 150 T 560 60" fill="none" stroke="#D4AF37" stroke-width="2.5" opacity="0.7"/>
+    <circle cx="560" cy="60" r="6" fill="#F3E0A2"/>
+    <rect x="28" y="28" width="240" height="26" rx="4" fill="#0A0A0A" stroke="#D4AF37" stroke-opacity="0.5"/>
+    <text x="40" y="45" fill="#D4AF37" font-family="sans-serif" font-size="10" font-weight="bold" letter-spacing="2">${label}</text>
+    <text x="28" y="295" fill="#9CA3AF" font-family="sans-serif" font-size="9" font-weight="bold" letter-spacing="2">CRYPTO CONSULT PRO · RECHERCHE</text>
+  </svg>`;
+  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
 export default function Blog({ posts }: BlogProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -40,7 +66,7 @@ export default function Blog({ posts }: BlogProps) {
           <Search className="absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#D4AF37]" />
           <Input
             type="search"
-            placeholder="Rechercher une analyse (ex: Bitcoin, DeFi, BCE, Rente)..."
+            placeholder="Rechercher une note de recherche (ex: Bitcoin, DeFi, Rente)..."
             className="h-12 rounded-xl border border-[#D4AF37]/50 bg-[#0A0A0A] pl-10 text-sm text-white placeholder:text-gray-400 shadow-lg focus:border-[#D4AF37]"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -57,7 +83,7 @@ export default function Blog({ posts }: BlogProps) {
                 : 'bg-[#0A0A0A]/80 text-gray-300 border border-[#D4AF37]/30 hover:text-[#D4AF37]'
             }`}
           >
-            Tous les articles ({safePosts.length})
+            Toutes les Publications ({safePosts.length})
           </Button>
           {allCategories.map(category => (
             <Button
@@ -77,7 +103,7 @@ export default function Blog({ posts }: BlogProps) {
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {filteredPosts.map(post => {
+        {filteredPosts.map((post, idx) => {
           let formattedDate = post?.metadata?.date || '';
           try {
             if (post?.metadata?.date) {
@@ -85,56 +111,58 @@ export default function Blog({ posts }: BlogProps) {
             }
           } catch (e) {}
 
+          const anyMeta = (post?.metadata || {}) as any;
+          const imgSrc = getCardCover(anyMeta.title, idx, anyMeta.image || anyMeta.coverImage);
+
           return (
             <Link
               href={`/blog/${post?.slug || '#'}`}
-              key={post?.slug || Math.random().toString()}
-              className="onyx-card onyx-card-hover group flex h-full flex-col justify-between rounded-2xl p-7"
+              key={post?.slug || idx}
+              className="onyx-card onyx-card-hover group flex h-full flex-col justify-between overflow-hidden rounded-2xl"
             >
               <div>
-                <div className="flex items-center justify-between gap-2 mb-4">
-                  <div className="flex flex-wrap gap-1.5">
-                    {(post?.metadata?.categories || ['Stratégie']).slice(0, 2).map(category => (
-                      <Badge
-                        key={category}
-                        variant="secondary"
-                        className="rounded bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[10px] font-bold uppercase tracking-wider text-[#D4AF37]"
-                      >
-                        {category}
-                      </Badge>
-                    ))}
-                  </div>
-                  <span className="flex items-center gap-1 text-[11px] font-medium text-gray-400">
-                    <Calendar className="h-3 w-3 text-[#D4AF37]" />
-                    {formattedDate}
-                  </span>
+                <div className="relative h-44 w-full overflow-hidden border-b border-[#D4AF37]/25 bg-[#050505]">
+                  <img
+                    src={imgSrc}
+                    alt={anyMeta.title || 'Analyse'}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
 
-                <h2 className="font-headline text-xl font-bold leading-snug text-white transition-colors group-hover:text-[#D4AF37] mb-3">
-                  {post?.metadata?.title || 'Analyse Stratégique'}
-                </h2>
+                <div className="p-6">
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <Badge
+                      variant="secondary"
+                      className="rounded bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[10px] font-bold uppercase tracking-wider text-[#D4AF37]"
+                    >
+                      {anyMeta.categories?.[0] || 'Note de Recherche'}
+                    </Badge>
+                    <span className="flex items-center gap-1 text-[11px] font-medium text-gray-400">
+                      <Calendar className="h-3 w-3 text-[#D4AF37]" />
+                      {formattedDate}
+                    </span>
+                  </div>
 
-                <p className="text-sm leading-relaxed text-gray-300 line-clamp-4">
-                  {post?.metadata?.summary || ''}
-                </p>
+                  <h2 className="font-headline text-xl font-bold leading-snug text-white transition-colors group-hover:text-[#D4AF37] mb-3 line-clamp-2">
+                    {anyMeta.title || 'Analyse Stratégique'}
+                  </h2>
+
+                  <p className="text-xs sm:text-sm leading-relaxed text-gray-300 line-clamp-3">
+                    {anyMeta.summary || ''}
+                  </p>
+                </div>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+              <div className="px-6 pb-6 pt-3 border-t border-white/10 flex items-center justify-between">
                 <span className="text-[11px] font-bold text-gray-400">Par David Birota</span>
                 <span className="inline-flex items-center gap-1 text-xs font-black uppercase tracking-wider text-[#D4AF37] group-hover:translate-x-1 transition-transform">
-                  Lire l&apos;article <ArrowRight className="h-3.5 w-3.5" />
+                  Lire la note <ArrowRight className="h-3.5 w-3.5" />
                 </span>
               </div>
             </Link>
           );
         })}
       </div>
-
-      {filteredPosts.length === 0 && (
-        <div className="onyx-card mx-auto max-w-xl rounded-2xl p-12 text-center my-8">
-          <p className="text-base font-bold text-white">Aucun article ne correspond à votre recherche.</p>
-        </div>
-      )}
     </div>
   );
 }
