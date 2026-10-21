@@ -1,8 +1,14 @@
 ---
 title: "Casino Royal à Wall Street : quand la SEC ouvre la porte aux ETF Bitcoin et Ethereum 3x"
 date: "2026-10-07"
-summary: "Vous pensiez que la finance traditionnelle avait touché le fond de l'absurde ?"
-categories: ["Éducation"]
+summary: "Vous pensiez que la finance traditionnelle avait touché le fond de l'absurde ?..."
+excerpt: "Vous pensiez que la finance traditionnelle avait touché le fond de l'absurde ?..."
+description: "Vous pensiez que la finance traditionnelle avait touché le fond de l'absurde ?..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-10-07-casino-royal-a-wall-street-quand-la-sec-ouvre-la-porte-aux-etf-bitcoin-et-ethereum-3x"
+published: true
 ---
 
 Vous pensiez que la finance traditionnelle avait touché le fond de l'absurde ?
