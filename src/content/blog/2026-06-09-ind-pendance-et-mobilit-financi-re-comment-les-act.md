@@ -1,8 +1,14 @@
 ---
 title: "Indépendance et Mobilité Financière : Comment les Actifs Numériques Redéfinissent la Gestion de Patrimoine à l'International"
 date: "2026-06-09"
+summary: "L'image est familière : une famille européenne qui s'expatrie, des comptes bancaires bloqués, des transferts internationaux qui prennent des semaines, des frais qui s'accumulent. Ou enc..."
+excerpt: "L'image est familière : une famille européenne qui s'expatrie, des comptes bancaires bloqués, des transferts internationaux qui prennent des semaines, des frais qui s'accumulent. Ou enc..."
+description: "L'image est familière : une famille européenne qui s'expatrie, des comptes bancaires bloqués, des transferts internationaux qui prennent des semaines, des frais qui s'accumulent. Ou enc..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-ind-pendance-et-mobilit-financi-re-comment-les-act"
+published: true
 ---
 
 ---
