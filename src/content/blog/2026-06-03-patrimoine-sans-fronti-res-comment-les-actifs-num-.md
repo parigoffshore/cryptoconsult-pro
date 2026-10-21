@@ -1,8 +1,14 @@
 ---
 title: "Patrimoine Sans Frontières : Comment les Actifs Numériques Révolutionnent la Liberté Financière des Investisseurs Européens"
 date: "2026-06-03"
-summary: "Découvrez comment les actifs numériques permettent de transférer et de sécuriser votre patrimoine à l'international avec une fraction des frais traditionnels."
-categories: ["Éducation"]
+summary: "Introduction : Quand les Frontières Deviennent des Obstacles Patrimoniaux..."
+excerpt: "Introduction : Quand les Frontières Deviennent des Obstacles Patrimoniaux..."
+description: "Introduction : Quand les Frontières Deviennent des Obstacles Patrimoniaux..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-03-patrimoine-sans-fronti-res-comment-les-actifs-num-"
+published: true
 ---
 
 **Introduction : Quand les Frontières Deviennent des Obstacles Patrimoniaux**
