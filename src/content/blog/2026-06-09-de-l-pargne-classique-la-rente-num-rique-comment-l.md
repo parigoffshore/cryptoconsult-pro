@@ -1,8 +1,14 @@
 ---
 title: "De l'Épargne Classique à la Rente Numérique : Comment la DeFi Peut Protéger Votre Patrimoine Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Imaginez que vous possédez un appartement que vous louez. Chaque mois, un loyer tombe sur votre compte. Ce revenu passif, régulier et prévisible, est le rêve de tout investisseur défens..."
+excerpt: "Imaginez que vous possédez un appartement que vous louez. Chaque mois, un loyer tombe sur votre compte. Ce revenu passif, régulier et prévisible, est le rêve de tout investisseur défens..."
+description: "Imaginez que vous possédez un appartement que vous louez. Chaque mois, un loyer tombe sur votre compte. Ce revenu passif, régulier et prévisible, est le rêve de tout investisseur défens..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-pargne-classique-la-rente-num-rique-comment-l"
+published: true
 ---
 
 ---
