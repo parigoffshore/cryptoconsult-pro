@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre à la Blockchain : Comment Structurer une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Imaginez que vous possédiez un immeuble de rapport. Chaque mois, vos locataires vous versent un loyer. Ce loyer couvre vos charges, protège votre capital contre l'érosion du temps, et v..."
+excerpt: "Imaginez que vous possédiez un immeuble de rapport. Chaque mois, vos locataires vous versent un loyer. Ce loyer couvre vos charges, protège votre capital contre l'érosion du temps, et v..."
+description: "Imaginez que vous possédiez un immeuble de rapport. Chaque mois, vos locataires vous versent un loyer. Ce loyer couvre vos charges, protège votre capital contre l'érosion du temps, et v..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-la-pierre-la-blockchain-comment-structurer-une-"
+published: true
 ---
 
 ---
