@@ -1,8 +1,14 @@
 ---
 title: "De l'Épargne Bancaire à la Rente Numérique : Comment Structurer Votre Patrimoine face à l'Inflation avec la DeFi"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Pendant des décennies, l'investisseur européen défensif avait une recette simple : livret d'épargne, assurance-vie en fonds euros, peut-être quelques obligations d'État. Le tout géré pa..."
+excerpt: "Pendant des décennies, l'investisseur européen défensif avait une recette simple : livret d'épargne, assurance-vie en fonds euros, peut-être quelques obligations d'État. Le tout géré pa..."
+description: "Pendant des décennies, l'investisseur européen défensif avait une recette simple : livret d'épargne, assurance-vie en fonds euros, peut-être quelques obligations d'État. Le tout géré pa..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-de-l-pargne-bancaire-la-rente-num-rique-comment-st"
+published: true
 ---
 
 ---
