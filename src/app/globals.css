@@ -8,6 +8,13 @@ html {
 
 body {
   font-family: 'PT Sans', sans-serif;
+  top: 0 !important;
+  background-color: #D4AF37;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(255, 248, 220, 0.55) 0%, transparent 65%),
+    linear-gradient(135deg, #DEC06B 0%, #D4AF37 28%, #F4E3AC 50%, #C59B27 78%, #A37C1A 100%);
+  background-attachment: fixed;
+  color: #0A0A0A;
 }
 
 /* Hide Google Translate original widget */
@@ -15,87 +22,83 @@ body {
   display: none !important;
 }
 
-body {
-  top: 0 !important; /* Fix for the space added by the Google Translate banner */
-}
-
 @layer base {
   :root {
-    --background: 216 25% 95%;
-    --foreground: 230 20% 10%;
-    --card: 0 0% 100%;
-    --card-foreground: 230 20% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 230 20% 10%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 216 25% 90%;
-    --secondary-foreground: 230 20% 10%;
-    --muted: 216 25% 90%;
-    --muted-foreground: 230 10% 40%;
-    --accent: 217.2 91.2% 59.8%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 216 20% 85%;
-    --input: 216 20% 85%;
-    --ring: 217.2 91.2% 59.8%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-  .dark {
-    --background: 0 0% 4%;
-    --foreground: 210 40% 95%;
-    --card: 0 0% 7%;
+    --background: 43 65% 58%;
+    --foreground: 0 0% 4%;
+    --card: 0 0% 4%;
     --card-foreground: 210 40% 98%;
-    --popover: 240 10% 4%;
+    --popover: 0 0% 4%;
     --popover-foreground: 210 40% 98%;
     --primary: 43 74% 52%;
     --primary-foreground: 0 0% 4%;
-    --secondary: 240 10% 12%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 240 10% 12%;
-    --muted-foreground: 220 10% 50%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 43 74% 66%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 215 16% 75%;
     --accent: 43 74% 52%;
-    --accent-foreground: 210 40% 98%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 43 55% 42%;
+    --input: 0 0% 15%;
+    --ring: 43 74% 52%;
+    --radius: 0.75rem;
+  }
+  .dark {
+    --background: 43 65% 58%;
+    --foreground: 0 0% 4%;
+    --card: 0 0% 4%;
+    --card-foreground: 210 40% 98%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 43 74% 52%;
+    --primary-foreground: 0 0% 4%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 43 74% 66%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 215 16% 75%;
+    --accent: 43 74% 52%;
+    --accent-foreground: 0 0% 4%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 10% 15%;
-    --input: 240 10% 15%;
-    --ring: 217.2 91.2% 59.8%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-    --sidebar-background: 240 10% 6%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 217.2 91.2% 59.8%;
-    --sidebar-primary-foreground: 210 40% 98%;
-    --sidebar-accent: 240 10% 12%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 240 10% 15%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 43 55% 42%;
+    --input: 0 0% 15%;
+    --ring: 43 74% 52%;
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+/* Surfaces Lingot d'Or Satiné & Champagne */
+.bg-gold-ingot {
+  background-image:
+    radial-gradient(ellipse at top, rgba(255, 250, 230, 0.45), transparent 70%),
+    linear-gradient(135deg, #E2C472 0%, #D4AF37 32%, #F3E0A2 52%, #C29725 82%, #9E7718 100%);
+}
+
+.bg-gold-champagne {
+  background-image:
+    radial-gradient(ellipse at center, rgba(255, 252, 240, 0.6), transparent 75%),
+    linear-gradient(135deg, #EFE0B0 0%, #E2C675 45%, #F7E9BE 70%, #CFA83B 100%);
+}
+
+.bg-gold-bronze {
+  background-image:
+    linear-gradient(135deg, #CDA434 0%, #B88E22 45%, #DFBF68 75%, #9B7415 100%);
+}
+
+/* Cartes Monolithes Onyx Noir */
+.onyx-card {
+  background-color: #0A0A0A;
+  color: #F8FAFC;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  box-shadow: 0 24px 48px -12px rgba(10, 8, 2, 0.65), 0 0 0 1px rgba(212, 175, 55, 0.15);
+}
+
+.onyx-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.onyx-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212, 175, 55, 0.9);
+  box-shadow: 0 30px 60px -12px rgba(10, 8, 2, 0.8), 0 0 25px rgba(212, 175, 55, 0.25);
 }
