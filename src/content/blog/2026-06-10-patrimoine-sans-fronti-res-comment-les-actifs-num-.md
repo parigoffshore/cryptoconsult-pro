@@ -1,8 +1,14 @@
 ---
 title: "Patrimoine Sans Frontières : Comment les Actifs Numériques Redéfinissent la Liberté Financière des Investisseurs Européens"
 date: "2026-06-10"
+summary: "Imaginez que vous possédiez un immeuble de rapport à Paris. Il génère des loyers, il prend de la valeur, mais il est là, ancré dans le sol, soumis à la fiscalité française, aux décision..."
+excerpt: "Imaginez que vous possédiez un immeuble de rapport à Paris. Il génère des loyers, il prend de la valeur, mais il est là, ancré dans le sol, soumis à la fiscalité française, aux décision..."
+description: "Imaginez que vous possédiez un immeuble de rapport à Paris. Il génère des loyers, il prend de la valeur, mais il est là, ancré dans le sol, soumis à la fiscalité française, aux décision..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-10-patrimoine-sans-fronti-res-comment-les-actifs-num-"
+published: true
 ---
 
 ---
