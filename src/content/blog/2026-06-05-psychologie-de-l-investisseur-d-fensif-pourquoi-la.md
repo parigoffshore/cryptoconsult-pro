@@ -1,8 +1,14 @@
 ---
 title: "Psychologie de l'Investisseur Défensif : Pourquoi la Vraie Richesse Crypto Se Construit dans la Sécurité, Pas dans la Spéculation"
 date: "2026-06-05"
-category: "Investissement"
-author: "David"
+summary: "Imaginez un propriétaire immobilier qui, chaque matin, consulterait les petites annonces pour décider s'il doit vendre son appartement en urgence parce qu'un voisin a bradé le sien la v..."
+excerpt: "Imaginez un propriétaire immobilier qui, chaque matin, consulterait les petites annonces pour décider s'il doit vendre son appartement en urgence parce qu'un voisin a bradé le sien la v..."
+description: "Imaginez un propriétaire immobilier qui, chaque matin, consulterait les petites annonces pour décider s'il doit vendre son appartement en urgence parce qu'un voisin a bradé le sien la v..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-psychologie-de-l-investisseur-d-fensif-pourquoi-la"
+published: true
 ---
 
 ---
