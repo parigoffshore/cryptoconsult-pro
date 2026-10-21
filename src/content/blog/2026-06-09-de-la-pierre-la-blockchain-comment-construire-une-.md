@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre à la Blockchain : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous connaissez cette sensation. Votre livret A affiche un taux qui, après inflation réelle, vous appauvrit lentement mais sûrement. Votre assurance-vie en fonds euros rapporte moins qu..."
+excerpt: "Vous connaissez cette sensation. Votre livret A affiche un taux qui, après inflation réelle, vous appauvrit lentement mais sûrement. Votre assurance-vie en fonds euros rapporte moins qu..."
+description: "Vous connaissez cette sensation. Votre livret A affiche un taux qui, après inflation réelle, vous appauvrit lentement mais sûrement. Votre assurance-vie en fonds euros rapporte moins qu..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-la-pierre-la-blockchain-comment-construire-une-"
+published: true
 ---
 
 ---
