@@ -1,8 +1,14 @@
 ---
 title: "De l'Épargne Classique à la Rente Numérique : Comment Structurer un Revenu Passif Sécurisé face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Imaginez que vous possédiez un appartement que vous louez depuis vingt ans. Chaque mois, un loyer tombe sur votre compte. Vous dormez sereinement. C'est exactement ce sentiment de sécur..."
+excerpt: "Imaginez que vous possédiez un appartement que vous louez depuis vingt ans. Chaque mois, un loyer tombe sur votre compte. Vous dormez sereinement. C'est exactement ce sentiment de sécur..."
+description: "Imaginez que vous possédiez un appartement que vous louez depuis vingt ans. Chaque mois, un loyer tombe sur votre compte. Vous dormez sereinement. C'est exactement ce sentiment de sécur..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-pargne-classique-la-rente-num-rique-comment-s"
+published: true
 ---
 
 ---
