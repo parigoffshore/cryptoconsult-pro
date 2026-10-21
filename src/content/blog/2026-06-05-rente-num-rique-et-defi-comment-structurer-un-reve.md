@@ -1,8 +1,14 @@
 ---
 title: "Rente Numérique et DeFi : Comment Structurer un Revenu Passif Sécurisé Face à l'Érosion Bancaire"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Imaginez que vous possédiez un immeuble de rapport. Chaque mois, vos locataires vous versent un loyer. Ce loyer couvre vos charges, génère un excédent, et votre patrimoine travaille pou..."
+excerpt: "Imaginez que vous possédiez un immeuble de rapport. Chaque mois, vos locataires vous versent un loyer. Ce loyer couvre vos charges, génère un excédent, et votre patrimoine travaille pou..."
+description: "Imaginez que vous possédiez un immeuble de rapport. Chaque mois, vos locataires vous versent un loyer. Ce loyer couvre vos charges, génère un excédent, et votre patrimoine travaille pou..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-rente-num-rique-et-defi-comment-structurer-un-reve"
+published: true
 ---
 
 ---
