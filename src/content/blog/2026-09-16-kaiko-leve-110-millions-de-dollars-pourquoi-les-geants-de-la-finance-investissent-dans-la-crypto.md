@@ -1,8 +1,14 @@
 ---
 title: "Kaiko lève 110 millions de dollars : pourquoi les géants de la finance investissent dans la crypto"
 date: "2026-09-16"
-summary: "Pendant des années, on nous a expliqué que la crypto était le « Far West » de la finance : trop volatile, trop spéculative et réservée aux technophiles."
-categories: ["Éducation"]
+summary: "Pendant des années, on nous a expliqué que la crypto était le « Far West » de la finance : trop volatile, trop spéculative et réservée aux technophiles...."
+excerpt: "Pendant des années, on nous a expliqué que la crypto était le « Far West » de la finance : trop volatile, trop spéculative et réservée aux technophiles...."
+description: "Pendant des années, on nous a expliqué que la crypto était le « Far West » de la finance : trop volatile, trop spéculative et réservée aux technophiles...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-09-16-kaiko-leve-110-millions-de-dollars-pourquoi-les-geants-de-la-finance-investissent-dans-la-crypto"
+published: true
 ---
 
 Pendant des années, on nous a expliqué que la crypto était le « Far West » de la finance : trop volatile, trop spéculative et réservée aux technophiles.
