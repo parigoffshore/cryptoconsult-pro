@@ -1,8 +1,14 @@
 ---
 title: "De l'Épargne Bancaire à la Rente Numérique : Comment la DeFi Peut Protéger Votre Patrimoine de l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année qui passe, vous regardez votre relevé de compte avec la même question silencieuse : à quoi bon ?..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année qui passe, vous regardez votre relevé de compte avec la même question silencieuse : à quoi bon ?..."
+description: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année qui passe, vous regardez votre relevé de compte avec la même question silencieuse : à quoi bon ?..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-pargne-bancaire-la-rente-num-rique-comment-la"
+published: true
 ---
 
 ---
