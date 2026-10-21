@@ -1,8 +1,14 @@
 ---
 title: "De la Banque au Bloc : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, vous regardez votre relevé bancaire avec un sentiment de malaise croissant. Votre livret A rapport..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, vous regardez votre relevé bancaire avec un sentiment de malaise croissant. Votre livret A rapport..."
+description: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, vous regardez votre relevé bancaire avec un sentiment de malaise croissant. Votre livret A rapport..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-la-banque-au-bloc-comment-construire-une-rente-"
+published: true
 ---
 
 ---
