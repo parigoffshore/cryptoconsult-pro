@@ -1,8 +1,14 @@
 ---
 title: "Rente Numérique et DeFi : Comment Faire Travailler Votre Capital à l'Ère de l'Inflation Bancaire"
 date: "2026-06-10"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné avec discipline. Vous avez suivi les conseils classiques : livret A, assurance-vie, peut-être quelques SCPI. Et pourtant, un sentiment désagré..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné avec discipline. Vous avez suivi les conseils classiques : livret A, assurance-vie, peut-être quelques SCPI. Et pourtant, un sentiment désagré..."
+description: "Vous avez travaillé dur. Vous avez épargné avec discipline. Vous avez suivi les conseils classiques : livret A, assurance-vie, peut-être quelques SCPI. Et pourtant, un sentiment désagré..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-10-rente-num-rique-et-defi-comment-faire-travailler-v"
+published: true
 ---
 
 ---
