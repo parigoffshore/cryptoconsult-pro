@@ -1,8 +1,14 @@
 ---
 title: "Indépendance Financière Sans Frontières : Comment les Actifs Numériques Révolutionnent la Gestion de Patrimoine International"
 date: "2026-06-05"
+summary: "La liberté de mouvement est une conquête moderne. Pourtant, pendant des décennies, nos patrimoines, eux, sont restés prisonniers. Prisonniers d'un pays, d'une banque, d'un système régle..."
+excerpt: "La liberté de mouvement est une conquête moderne. Pourtant, pendant des décennies, nos patrimoines, eux, sont restés prisonniers. Prisonniers d'un pays, d'une banque, d'un système régle..."
+description: "La liberté de mouvement est une conquête moderne. Pourtant, pendant des décennies, nos patrimoines, eux, sont restés prisonniers. Prisonniers d'un pays, d'une banque, d'un système régle..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-ind-pendance-financi-re-sans-fronti-res-comment-le"
+published: true
 ---
 
 ---
