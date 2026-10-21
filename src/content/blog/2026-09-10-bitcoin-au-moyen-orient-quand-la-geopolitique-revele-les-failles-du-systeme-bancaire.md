@@ -1,8 +1,14 @@
 ---
 title: "Bitcoin au Moyen-Orient : quand la géopolitique révèle les failles du système bancaire"
 date: "2026-09-10"
-summary: "On nous explique encore que le Bitcoin n'est qu'une « bulle spéculative » destinée aux traders et aux passionnés de technologie."
-categories: ["Éducation"]
+summary: "On nous explique encore que le Bitcoin n'est qu'une « bulle spéculative » destinée aux traders et aux passionnés de technologie...."
+excerpt: "On nous explique encore que le Bitcoin n'est qu'une « bulle spéculative » destinée aux traders et aux passionnés de technologie...."
+description: "On nous explique encore que le Bitcoin n'est qu'une « bulle spéculative » destinée aux traders et aux passionnés de technologie...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-09-10-bitcoin-au-moyen-orient-quand-la-geopolitique-revele-les-failles-du-systeme-bancaire"
+published: true
 ---
 
 On nous explique encore que le Bitcoin n'est qu'une « bulle spéculative » destinée aux traders et aux passionnés de technologie.
