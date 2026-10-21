@@ -1,13 +1,15 @@
 ---
 title: "Lexique Crypto"
 date: "2025-09-09"
-author: "David Birota"
-summary: "Un lexique simple et clair pour comprendre les termes essentiels de la crypto et de la DeFi."
-categories: ["Éducation", "Crypto", "Finance"]
-image: "crypto_lexicon"
+summary: "Le monde des cryptomonnaies et de la finance peut sembler rempli de termes compliqués...."
+excerpt: "Le monde des cryptomonnaies et de la finance peut sembler rempli de termes compliqués...."
+description: "Le monde des cryptomonnaies et de la finance peut sembler rempli de termes compliqués...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "lexique-crypto"
+published: true
 ---
-
-# Lexique Crypto 📖
 
 Le monde des cryptomonnaies et de la finance peut sembler rempli de termes compliqués.  
 Ce guide vous aide à comprendre les concepts clés — sans jargon inutile.
