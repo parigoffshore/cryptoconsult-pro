@@ -1,8 +1,14 @@
 ---
 title: "Indépendance Financière Sans Frontières : Comment les Actifs Numériques Redéfinissent la Gestion de Patrimoine International"
 date: "2026-06-10"
+summary: "Imaginez que vous décidiez de vous installer au Portugal, en Suisse, ou aux Émirats Arabes Unis pour des raisons fiscales, familiales ou professionnelles. Vous avez soigneusement planif..."
+excerpt: "Imaginez que vous décidiez de vous installer au Portugal, en Suisse, ou aux Émirats Arabes Unis pour des raisons fiscales, familiales ou professionnelles. Vous avez soigneusement planif..."
+description: "Imaginez que vous décidiez de vous installer au Portugal, en Suisse, ou aux Émirats Arabes Unis pour des raisons fiscales, familiales ou professionnelles. Vous avez soigneusement planif..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-10-ind-pendance-financi-re-sans-fronti-res-comment-le"
+published: true
 ---
 
 ---
