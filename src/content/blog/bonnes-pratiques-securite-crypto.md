@@ -1,10 +1,14 @@
 ---
 title: "Bonnes pratiques de sécurité crypto pour les investisseurs"
 date: "2024-05-20"
-author: "David Birota"
-summary: "Protéger vos actifs numériques est crucial. Suivez ces pratiques de sécurité essentielles pour garder vos investissements crypto à l’abri des menaces."
-categories: ["Sécurité", "Investissement"]
-image: "crypto_security"
+summary: "La nature décentralisée et souvent anonyme des cryptomonnaies en fait une cible privilégiée pour les hackers et les arnaqueurs...."
+excerpt: "La nature décentralisée et souvent anonyme des cryptomonnaies en fait une cible privilégiée pour les hackers et les arnaqueurs...."
+description: "La nature décentralisée et souvent anonyme des cryptomonnaies en fait une cible privilégiée pour les hackers et les arnaqueurs...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "bonnes-pratiques-securite-crypto"
+published: true
 ---
 
 ## Pourquoi la sécurité crypto est-elle si importante ?
