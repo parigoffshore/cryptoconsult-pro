@@ -1,8 +1,14 @@
 ---
 title: "Indépendance et Mobilité Financière : Comment les Actifs Numériques Redéfinissent la Gestion de Patrimoine à l'International"
 date: "2026-06-05"
+summary: "L'Europe change. Les fiscalités évoluent, les tensions géopolitiques se multiplient, et une question revient de plus en plus souvent dans les conversations des investisseurs avisés : co..."
+excerpt: "L'Europe change. Les fiscalités évoluent, les tensions géopolitiques se multiplient, et une question revient de plus en plus souvent dans les conversations des investisseurs avisés : co..."
+description: "L'Europe change. Les fiscalités évoluent, les tensions géopolitiques se multiplient, et une question revient de plus en plus souvent dans les conversations des investisseurs avisés : co..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-ind-pendance-et-mobilit-financi-re-comment-les-act"
+published: true
 ---
 
 ---
