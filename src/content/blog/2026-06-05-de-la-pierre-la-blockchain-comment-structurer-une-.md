@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre à la Blockchain : Comment Structurer une Rente Numérique Sécurisée Face à l'Inflation Bancaire"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Pendant des décennies, le contrat implicite entre l'épargnant européen et sa banque était simple : vous déposez votre argent, la banque vous rémunère. Ce contrat est aujourd'hui rompu...."
+excerpt: "Pendant des décennies, le contrat implicite entre l'épargnant européen et sa banque était simple : vous déposez votre argent, la banque vous rémunère. Ce contrat est aujourd'hui rompu...."
+description: "Pendant des décennies, le contrat implicite entre l'épargnant européen et sa banque était simple : vous déposez votre argent, la banque vous rémunère. Ce contrat est aujourd'hui rompu...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-de-la-pierre-la-blockchain-comment-structurer-une-"
+published: true
 ---
 
 ---
