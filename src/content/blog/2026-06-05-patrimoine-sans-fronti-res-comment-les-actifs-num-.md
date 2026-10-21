@@ -1,8 +1,14 @@
 ---
 title: "Patrimoine Sans Frontières : Comment les Actifs Numériques Redéfinissent la Liberté Financière"
 date: "2026-06-05"
+summary: "Imaginez que vous souhaitez transférer une partie de votre patrimoine vers un autre pays européen, financer l'achat d'un bien immobilier à l'étranger, ou simplement consolider vos avoir..."
+excerpt: "Imaginez que vous souhaitez transférer une partie de votre patrimoine vers un autre pays européen, financer l'achat d'un bien immobilier à l'étranger, ou simplement consolider vos avoir..."
+description: "Imaginez que vous souhaitez transférer une partie de votre patrimoine vers un autre pays européen, financer l'achat d'un bien immobilier à l'étranger, ou simplement consolider vos avoir..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-patrimoine-sans-fronti-res-comment-les-actifs-num-"
+published: true
 ---
 
 ---
