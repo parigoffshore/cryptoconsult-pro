@@ -1,8 +1,14 @@
 ---
 title: "Rente Numérique et DeFi : Comment Construire un Patrimoine Passif Sécurisé Face à l'Inflation"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur pour constituer votre épargne. Elle repose aujourd'hui sur un livret réglementé, un fonds en euros ou un portefeuille obligataire. Et pourtant, chaque année, l'i..."
+excerpt: "Vous avez travaillé dur pour constituer votre épargne. Elle repose aujourd'hui sur un livret réglementé, un fonds en euros ou un portefeuille obligataire. Et pourtant, chaque année, l'i..."
+description: "Vous avez travaillé dur pour constituer votre épargne. Elle repose aujourd'hui sur un livret réglementé, un fonds en euros ou un portefeuille obligataire. Et pourtant, chaque année, l'i..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-rente-num-rique-et-defi-comment-construire-un-patr"
+published: true
 ---
 
 ---
