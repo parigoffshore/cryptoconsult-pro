@@ -1,8 +1,14 @@
 ---
 title: "De la Pierre à la Blockchain : Comment Construire une Rente Numérique Sécurisée Face à l'Inflation"
 date: "2026-06-05"
-category: "Finance"
-author: "David"
+summary: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, votre livret d'épargne vous offre un rendement qui peine à suivre l'inflation réelle. En zone euro..."
+excerpt: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, votre livret d'épargne vous offre un rendement qui peine à suivre l'inflation réelle. En zone euro..."
+description: "Vous avez travaillé dur. Vous avez épargné avec discipline. Et pourtant, chaque année, votre livret d'épargne vous offre un rendement qui peine à suivre l'inflation réelle. En zone euro..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-05-de-la-pierre-la-blockchain-comment-construire-une-"
+published: true
 ---
 
 ---
