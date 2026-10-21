@@ -1,13 +1,15 @@
 ---
 title: "Guide Complet de la DeFi pour Débutants"
 date: "2024-05-15"
-author: "David Birota"
-summary: "La Finance Décentralisée (DeFi) transforme le monde financier. Ce guide explique les notions clés et le potentiel de la DeFi pour les investisseurs."
-categories: ["DeFi", "Débutant", "Blockchain"]
-image: "defi_guide"
+summary: "La DeFi (Finance Décentralisée) désigne l’ensemble des services financiers construits sur des blockchains publiques comme Ethereum...."
+excerpt: "La DeFi (Finance Décentralisée) désigne l’ensemble des services financiers construits sur des blockchains publiques comme Ethereum...."
+description: "La DeFi (Finance Décentralisée) désigne l’ensemble des services financiers construits sur des blockchains publiques comme Ethereum...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "comprendre-la-defi"
+published: true
 ---
-
-# Comprendre la DeFi : Guide du Débutant 🚀
 
 ## Qu’est-ce que la DeFi ?
 
