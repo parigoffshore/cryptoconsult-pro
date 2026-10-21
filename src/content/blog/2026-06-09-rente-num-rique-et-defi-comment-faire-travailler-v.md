@@ -1,8 +1,14 @@
 ---
 title: "Rente Numérique et DeFi : Comment Faire Travailler Votre Capital Quand les Banques Vous Appauvrissent"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Il y a quelque chose de profondément injuste dans la situation de l'épargnant européen aujourd'hui...."
+excerpt: "Il y a quelque chose de profondément injuste dans la situation de l'épargnant européen aujourd'hui...."
+description: "Il y a quelque chose de profondément injuste dans la situation de l'épargnant européen aujourd'hui...."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-rente-num-rique-et-defi-comment-faire-travailler-v"
+published: true
 ---
 
 ---
