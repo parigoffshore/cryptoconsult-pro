@@ -1,8 +1,14 @@
 ---
 title: "Analyse Stratégique - 19/06/2026"
 date: "2026-06-19"
-summary: "Stratégie d'investissement : Structurer son portefeuille crypto face à l'inflation"
-categories: ["Éducation"]
+summary: "Stratégie d'investissement : Structurer son portefeuille crypto face à l'inflation..."
+excerpt: "Stratégie d'investissement : Structurer son portefeuille crypto face à l'inflation..."
+description: "Stratégie d'investissement : Structurer son portefeuille crypto face à l'inflation..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-19-analyse-strategique-19-06-2026"
+published: true
 ---
 
 Stratégie d'investissement : Structurer son portefeuille crypto face à l'inflation
