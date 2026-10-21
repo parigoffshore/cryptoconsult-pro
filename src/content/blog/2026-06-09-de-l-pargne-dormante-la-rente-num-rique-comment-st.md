@@ -1,8 +1,14 @@
 ---
 title: "De l'Épargne Dormante à la Rente Numérique : Comment Structurer un Revenu Passif Sécurisé avec la DeFi"
 date: "2026-06-09"
-category: "Finance"
-author: "David"
+summary: "Imaginez que vous possédiez un appartement en plein cœur d'une grande ville. Vous pourriez le louer, encaisser un loyer mensuel et faire fructifier votre patrimoine. Mais au lieu de cel..."
+excerpt: "Imaginez que vous possédiez un appartement en plein cœur d'une grande ville. Vous pourriez le louer, encaisser un loyer mensuel et faire fructifier votre patrimoine. Mais au lieu de cel..."
+description: "Imaginez que vous possédiez un appartement en plein cœur d'une grande ville. Vous pourriez le louer, encaisser un loyer mensuel et faire fructifier votre patrimoine. Mais au lieu de cel..."
+category: "Éducation"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-de-l-pargne-dormante-la-rente-num-rique-comment-st"
+published: true
 ---
 
 ---
