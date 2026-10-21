@@ -1,8 +1,14 @@
 ---
 title: "Patrimoine Sans Frontières : Comment les Actifs Numériques Redéfinissent la Liberté Financière Internationale"
 date: "2026-06-09"
+summary: "Imaginez que vous souhaitez transférer une partie de votre patrimoine vers un compte bancaire à l'étranger. Formulaires, délais, frais de conversion, questions intrusives de votre conse..."
+excerpt: "Imaginez que vous souhaitez transférer une partie de votre patrimoine vers un compte bancaire à l'étranger. Formulaires, délais, frais de conversion, questions intrusives de votre conse..."
+description: "Imaginez que vous souhaitez transférer une partie de votre patrimoine vers un compte bancaire à l'étranger. Formulaires, délais, frais de conversion, questions intrusives de votre conse..."
 category: "Éducation"
-author: "David"
+categories: ["Éducation", "Stratégie"]
+author: "David — Crypto Consult Pro"
+slug: "2026-06-09-patrimoine-sans-fronti-res-comment-les-actifs-num-"
+published: true
 ---
 
 ---
