@@ -1,20 +1,21 @@
 import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
-import { BarChart3, Clock3, FileText, Shield, EyeOff, Globe, Key, Linkedin, Twitter, Instagram, ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
+import { BarChart3, Clock3, Shield, EyeOff, Globe, Key, Linkedin, Twitter, Instagram, ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
 import Testimonials from '@/components/landing/testimonials';
 import LeadForm from '@/components/landing/LeadForm';
 import CryptoSimulator from '@/components/landing/CryptoSimulator';
+import InsightsCarousel from '@/components/landing/InsightsCarousel';
 import { getBlogPosts } from '@/lib/blog';
 
 export default async function HomePage() {
   const allPosts = await getBlogPosts();
-  const latestPosts = (allPosts || []).slice(0, 3);
+  const latestPosts = (allPosts || []).slice(0, 6);
 
   return (
     <div className="bg-gold-ingot text-[#0A0A0A] min-h-screen">
       <main>
-        {/* ==================== SECTION HERO : LINGOT SATINÉ & ÉCRIN ONYX ==================== */}
+        {/* ==================== 1. SECTION HERO : LINGOT SATINÉ, GUIDE PDF & ANCRE SIMULATEUR ==================== */}
         <section
           id="home"
           className="relative flex min-h-[calc(100vh-5rem)] items-center px-4 sm:px-6 py-16 md:py-24 text-center"
@@ -22,7 +23,7 @@ export default async function HomePage() {
           <div className="mx-auto w-full max-w-5xl">
             <div className="inline-flex items-center gap-2 rounded-full bg-[#0A0A0A] px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.22em] text-[#D4AF37] shadow-lg mb-6 border border-[#D4AF37]/40">
               <Sparkles className="h-3.5 w-3.5 text-[#D4AF37]" />
-              Cabinet de Conseil Stratégique · Crypto &amp; Patrimoine depuis 2019
+              Cabinet de Conseil en Stratégie Crypto &amp; Patrimoine · Depuis 2019
             </div>
 
             <h1 className="font-headline text-4xl font-bold leading-tight text-[#0A0A0A] sm:text-6xl md:text-7xl drop-shadow-sm">
@@ -37,25 +38,25 @@ export default async function HomePage() {
               Protégez, structurez et développez votre patrimoine hors système bancaire grâce à une ingénierie financière sur-mesure alliant discrétion, contrôle Non-Custodial et rendement institutionnel.
             </p>
 
-            {/* MONOLITHE CENTRAL HERO : CAPTURE LEAD & NAVIGATION */}
+            {/* ÉCRIN MONOLITHE HERO : GUIDE GRATUIT "PLAN DE SORTIE" + ACCÈS DIRECT AU SIMULATEUR */}
             <div className="onyx-card mx-auto mt-10 max-w-3xl rounded-2xl p-6 sm:p-8 text-left">
-              <div className="grid gap-6 md:grid-cols-[1.2fr_1fr] items-center">
+              <div className="grid gap-6 md:grid-cols-[1.25fr_1fr] items-center">
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#D4AF37] mb-1">
-                    Guide Stratégique Offert
+                    Dossier Stratégique Offert
                   </p>
                   <h2 className="font-headline text-xl sm:text-2xl text-white mb-2">
-                    Recevez « Le Plan de Sortie » (PDF)
+                    Téléchargez « Le Plan de Sortie » (PDF)
                   </h2>
                   <p className="text-xs sm:text-sm text-gray-300 leading-relaxed mb-4">
-                    Découvrez la méthodologie exacte pour sécuriser vos actifs numériques et préparer vos prises de profits de fin de cycle.
+                    La méthode complète pour sécuriser vos actifs numériques hors banque et planifier vos prises de profits de fin de cycle.
                   </p>
                   <LeadForm />
                 </div>
 
                 <div className="flex flex-col gap-3 border-t md:border-t-0 md:border-l border-white/10 pt-5 md:pt-0 md:pl-6">
                   <p className="text-[11px] font-bold uppercase tracking-widest text-gray-400">
-                    Diagnostic Immédiat
+                    Outil de Diagnostic Gratuit
                   </p>
                   <a
                     href="#simulateur"
@@ -65,15 +66,15 @@ export default async function HomePage() {
                     <ArrowRight className="h-4 w-4" />
                   </a>
                   <a
-                    href="#services"
+                    href="#insights"
                     className="flex items-center justify-between rounded-lg border border-[#D4AF37]/50 bg-[#141414] px-5 py-3.5 text-xs font-bold uppercase tracking-wider text-[#D4AF37] transition hover:bg-[#1f1f1f]"
                   >
-                    <span>Découvrir nos Services</span>
+                    <span>Nos Notes de Recherche</span>
                     <ArrowRight className="h-4 w-4" />
                   </a>
                   <div className="flex items-center gap-2 text-[11px] text-gray-400 pt-1">
                     <CheckCircle2 className="h-3.5 w-3.5 text-[#D4AF37] shrink-0" />
-                    <span>Accompagnement 100% Non-Custodial</span>
+                    <span>Architecture 100% Non-Custodiale</span>
                   </div>
                 </div>
               </div>
@@ -81,36 +82,18 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ==================== SECTION SIMULATEUR DE PROFIL ==================== */}
-        <section id="simulateur" className="bg-gold-champagne px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
-          <div className="mx-auto max-w-6xl">
-            <div className="text-center mb-10">
-              <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37] mb-3">
-                Outil Interactif Gratuit
-              </span>
-              <h2 className="font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
-                Quel est votre Profil d&apos;Investisseur ?
-              </h2>
-              <p className="mx-auto mt-3 max-w-xl text-sm sm:text-base font-medium text-[#2A2005]">
-                Répondez à 8 questions stratégiques en 2 minutes pour identifier vos vulnérabilités et recevoir votre feuille de route personnalisée.
-              </p>
-            </div>
-            <CryptoSimulator />
-          </div>
-        </section>
-
-        {/* ==================== SECTION LES 3 PILIERS ==================== */}
-        <section id="piliers" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
+        {/* ==================== 2. SECTION LES 3 PILIERS (CADRE DU CABINET DE CONSEIL) ==================== */}
+        <section id="piliers" className="bg-gold-champagne px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
           <div className="mx-auto max-w-6xl">
             <div className="text-center">
               <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
-                Fondements de notre Approche
+                Doctrine du Cabinet
               </span>
               <h2 className="mt-3 font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
                 Les 3 Piliers de votre Souveraineté
               </h2>
               <p className="mt-3 text-sm sm:text-base font-medium text-[#2A2005]">
-                Trois principes institutionnels qui guident chaque architecture patrimoniale
+                Trois principes non négociables qui guident chaque architecture patrimoniale chez CryptoConsult Pro
               </p>
             </div>
 
@@ -154,18 +137,46 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ==================== SECTION NOS SERVICES ==================== */}
+        {/* ==================== 3. SECTION CARROUSEL DYNAMIQUE : NOTES DE RECHERCHE & THÈSES MACRO ==================== */}
+        <section id="insights" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
+          <div className="mx-auto max-w-6xl">
+            <div className="text-center mb-12">
+              <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
+                Publications du Cabinet · Intelligence Patrimoniale
+              </span>
+              <h2 className="mt-3 font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
+                Notes de Recherche &amp; Thèses Macro
+              </h2>
+              <p className="mx-auto mt-3 max-w-2xl text-sm sm:text-base font-medium text-[#2A2005]">
+                Nos décryptages stratégiques sur les banques centrales, les flux institutionnels et la structuration de portefeuille pour éclairer vos décisions.
+              </p>
+            </div>
+
+            <InsightsCarousel posts={latestPosts} />
+
+            <div className="mt-10 text-center">
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 rounded-lg bg-[#0A0A0A] border border-[#D4AF37] px-8 py-4 text-xs font-black uppercase tracking-widest text-[#D4AF37] shadow-xl transition hover:bg-[#141414]"
+              >
+                Accéder à l&apos;Intégralité des Notes du Cabinet <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ==================== 4. SECTION NOS SERVICES SUR MESURE ==================== */}
         <section id="services" className="bg-gold-champagne px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
           <div className="mx-auto max-w-6xl">
             <div className="text-center">
               <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
-                Expertise &amp; Accompagnement
+                Mandats &amp; Accompagnement
               </span>
               <h2 className="mt-3 font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
-                Nos Services sur Mesure
+                Nos Services de Consulting
               </h2>
               <p className="mt-3 text-sm sm:text-base font-medium text-[#2A2005]">
-                Des solutions d&apos;ingénierie patrimoniale calibrées pour les investisseurs et dirigeants exigeants
+                Un accompagnement privé de bout en bout pour structurer, sécuriser et faire fructifier vos actifs numériques
               </p>
             </div>
 
@@ -227,8 +238,26 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ==================== SECTION À PROPOS (DAVID BIROTA) ==================== */}
-        <section id="team" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
+        {/* ==================== 5. SECTION SIMULATEUR DE PROFIL INVESTISSEUR (CONVERSION) ==================== */}
+        <section id="simulateur" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
+          <div className="mx-auto max-w-6xl">
+            <div className="text-center mb-10">
+              <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37] mb-3">
+                Diagnostic Interactif Gratuit
+              </span>
+              <h2 className="font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
+                Évaluez votre Profil d&apos;Investisseur
+              </h2>
+              <p className="mx-auto mt-3 max-w-xl text-sm sm:text-base font-medium text-[#2A2005]">
+                Avant toute prise de position, identifiez votre tolérance au risque et recevez gratuitement par email votre stratégie d&apos;allocation personnalisée.
+              </p>
+            </div>
+            <CryptoSimulator />
+          </div>
+        </section>
+
+        {/* ==================== 6. SECTION À PROPOS (DAVID BIROTA) ==================== */}
+        <section id="team" className="bg-gold-champagne px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
           <div className="mx-auto max-w-5xl">
             <div className="text-center mb-12">
               <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
@@ -301,88 +330,17 @@ export default async function HomePage() {
                   >
                     Réserver ma consultation gratuite <ArrowRight className="h-4 w-4" />
                   </a>
-                  <a
-                    href="#simulateur"
-                    className="inline-flex items-center gap-2 rounded-lg border border-[#D4AF37]/50 bg-[#141414] px-6 py-3.5 text-xs font-bold uppercase tracking-wider text-[#D4AF37] transition hover:bg-white/5"
-                  >
-                    Faire le test de profil
-                  </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ==================== SECTION TÉMOIGNAGES ==================== */}
+        {/* ==================== 7. SECTION TÉMOIGNAGES ==================== */}
         <Testimonials />
 
-        {/* ==================== SECTION BLOG DYNAMIQUE ==================== */}
-        <section id="blog" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
-          <div className="mx-auto max-w-6xl">
-            <div className="text-center">
-              <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
-                Insights &amp; Analyses Macro
-              </span>
-              <h2 className="mt-3 font-headline text-3xl sm:text-5xl font-bold text-[#0A0A0A]">
-                Nos Derniers Articles de Fond
-              </h2>
-              <p className="mt-3 text-sm sm:text-base font-medium text-[#2A2005]">
-                Décryptages institutionnels, gestion du risque et stratégies DeFi pour éclairer vos décisions
-              </p>
-            </div>
-
-            <div className="mx-auto mt-12 grid max-w-5xl gap-8 md:grid-cols-3">
-              {latestPosts.map((post, idx) => (
-                <Link
-                  href={`/blog/${post.slug}`}
-                  key={post.slug || idx}
-                  className="onyx-card onyx-card-hover group flex flex-col justify-between overflow-hidden rounded-xl"
-                >
-                  <div>
-                    <div className="flex h-24 items-center justify-between border-b border-[#D4AF37]/20 bg-gradient-to-r from-[#141004] to-[#0A0A0A] px-6">
-                      <span className="rounded bg-[#D4AF37]/20 border border-[#D4AF37]/40 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[#D4AF37]">
-                        {post.metadata?.categories?.[0] || 'Stratégie'}
-                      </span>
-                      {idx === 0 ? (
-                        <BarChart3 className="h-7 w-7 text-[#D4AF37]" />
-                      ) : idx === 1 ? (
-                        <Clock3 className="h-7 w-7 text-[#D4AF37]" />
-                      ) : (
-                        <FileText className="h-7 w-7 text-[#D4AF37]" />
-                      )}
-                    </div>
-                    <div className="p-6">
-                      <p className="text-[11px] font-semibold text-[#D4AF37]/80">{post.metadata?.date}</p>
-                      <h3 className="mb-3 mt-2 font-headline text-lg leading-snug text-white transition-colors group-hover:text-[#D4AF37] line-clamp-2">
-                        {post.metadata?.title}
-                      </h3>
-                      <p className="text-xs leading-relaxed text-gray-300 line-clamp-3">
-                        {post.metadata?.summary}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="px-6 pb-6 pt-2">
-                    <span className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-[#D4AF37] group-hover:translate-x-1 transition-transform">
-                      Lire l&apos;article complet <ArrowRight className="h-3.5 w-3.5" />
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-2 rounded-lg bg-[#0A0A0A] border border-[#D4AF37] px-8 py-4 text-xs font-black uppercase tracking-widest text-[#D4AF37] shadow-xl transition hover:bg-[#141414]"
-              >
-                Explorer tous les articles du Blog <ArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* ==================== SECTION CALENDLY / APPEL STRATÉGIQUE ==================== */}
-        <section id="reservation" className="bg-gold-champagne px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
+        {/* ==================== 8. SECTION CALENDLY / APPEL STRATÉGIQUE ==================== */}
+        <section id="reservation" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
           <div className="mx-auto max-w-6xl">
             <div className="text-center">
               <span className="inline-block rounded-full bg-[#0A0A0A] px-4 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-[#D4AF37]">
@@ -408,7 +366,6 @@ export default async function HomePage() {
         </section>
       </main>
 
-      {/* ==================== FOOTER ONYX ==================== */}
       <footer className="border-t-2 border-[#D4AF37] bg-[#0A0A0A] py-10 text-white">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-8">
           <div>
@@ -418,7 +375,7 @@ export default async function HomePage() {
             <p className="text-[11px] text-gray-400 mt-1">© 2026 CryptoConsult Pro · Cabinet de Conseil en Stratégie Crypto &amp; Souveraineté Financière</p>
           </div>
           <div className="flex flex-wrap items-center gap-6">
-            <Link href="/blog" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Blog</Link>
+            <Link href="/blog" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Notes de Recherche</Link>
             <a href="#simulateur" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Simulateur</a>
             <a
               href="https://www.linkedin.com/in/david-birota-cryptoconsultme/"
