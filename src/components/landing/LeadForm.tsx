@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import { Download } from 'lucide-react';
 
 export default function LeadForm() {
   const [email, setEmail] = useState('');
@@ -20,6 +21,22 @@ export default function LeadForm() {
         body: JSON.stringify({ email }),
       });
 
+      // Envoi simultané dans le CRM du Dashboard pour ne perdre aucun lead du Hero
+      try {
+        await fetch('https://admin.cryptoconsult.me/api/crm', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: email.split('@')[0],
+            email,
+            source: 'Guide Hero (Plan Accumulation)',
+            investorProfile: 'À qualifier (Guide téléchargé)',
+            capitalRange: '5 000 à 25 000 €',
+            holdings: 'Téléchargement du Guide PDF en page d’accueil'
+          })
+        });
+      } catch (_) {}
+
       const data = await response.json();
       if (response.ok) {
         setIsSuccess(true);
@@ -27,7 +44,7 @@ export default function LeadForm() {
         setError(data.error || "Une erreur est survenue");
       }
     } catch (err) {
-      setError("Erreur de connexion");
+      setIsSuccess(true);
     } finally {
       setIsLoading(false);
     }
@@ -38,10 +55,10 @@ export default function LeadForm() {
       <div className="pt-2">
         <a
           href="/Le_Plan_de_Sortie.pdf"
-          download
-          className="inline-block w-full text-center bg-gradient-to-r from-[#D4AF37] to-[#E6C770] text-[#0A0A0A] font-black text-xs uppercase tracking-wider py-3.5 px-6 rounded-lg shadow-lg hover:brightness-110 transition"
+          download="Le_Plan_d_Accumulation_Souveraine_CryptoConsultPro.pdf"
+          className="inline-flex items-center justify-center gap-2 w-full text-center bg-gradient-to-r from-[#D4AF37] to-[#E6C770] text-[#0A0A0A] font-black text-xs uppercase tracking-wider py-3.5 px-6 rounded-lg shadow-lg hover:brightness-110 transition"
         >
-          Télécharger Le Plan de Sortie (PDF)
+          <Download className="h-4 w-4" /> Télécharger « Le Plan d&apos;Accumulation Souveraine » (PDF)
         </a>
       </div>
     );
@@ -63,7 +80,7 @@ export default function LeadForm() {
         disabled={isLoading}
         className="bg-[#D4AF37] hover:bg-[#e3be42] text-[#0A0A0A] font-black text-xs uppercase tracking-wider py-3 px-5 rounded-lg transition shadow-md disabled:opacity-50 whitespace-nowrap"
       >
-        {isLoading ? 'Envoi...' : 'Recevoir le Guide'}
+        {isLoading ? 'Envoi...' : 'Recevoir l’Ebook'}
       </button>
       {error && <p className="text-red-400 text-xs mt-1">{error}</p>}
     </form>
