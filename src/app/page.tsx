@@ -46,10 +46,10 @@ export default async function HomePage() {
                     Dossier Stratégique Offert
                   </p>
                   <h2 className="font-headline text-xl sm:text-2xl text-white mb-2">
-                    Téléchargez « Le Plan de Sortie » (PDF)
+                    Téléchargez « Le Plan d'Accumulation Souveraine » (PDF)
                   </h2>
                   <p className="text-xs sm:text-sm text-gray-300 leading-relaxed mb-4">
-                    La méthode complète pour sécuriser vos actifs numériques hors banque et planifier vos prises de profits de fin de cycle.
+                    Le guide illustré pour profiter de la phase d'accumulation, investir selon votre budget et sécuriser vos actifs hors système bancaire.
                   </p>
                   <LeadForm />
                 </div>
