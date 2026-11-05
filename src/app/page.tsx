@@ -367,6 +367,9 @@ export default async function HomePage() {
             <p className="text-[11px] text-gray-400 mt-1">© 2026 CryptoConsult Pro · Cabinet de Conseil en Stratégie Crypto &amp; Souveraineté Financière</p>
           </div>
           <div className="flex flex-wrap items-center gap-6">
+            <Link href="/services/securite-ledger-auto-garde" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Sécurité Ledger</Link>
+            <Link href="/services/consultant-defi-rendement" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Consultant DeFi</Link>
+            <Link href="/services/conseil-crypto-ile-maurice" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Île Maurice (17 000 Rs)</Link>
             <Link href="/blog" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Notes de Recherche</Link>
             <a href="#simulateur" className="text-xs text-gray-300 transition-colors hover:text-[#D4AF37]">Simulateur</a>
             <a
