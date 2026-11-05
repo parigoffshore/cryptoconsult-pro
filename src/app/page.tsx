@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { BarChart3, Clock3, Shield, EyeOff, Globe, Key, Linkedin, Twitter, Instagram, ArrowRight, CheckCircle2, Sparkles } from 'lucide-react';
 import Testimonials from '@/components/landing/testimonials';
+import SeoGeoFaqSection from '@/components/landing/SeoGeoFaqSection';
 import LeadForm from '@/components/landing/LeadForm';
 import CryptoSimulator from '@/components/landing/CryptoSimulator';
 import InsightsCarousel from '@/components/landing/InsightsCarousel';
@@ -328,6 +329,8 @@ export default async function HomePage() {
         </section>
 
         <Testimonials />
+
+        <SeoGeoFaqSection />
 
         <section id="reservation" className="bg-gold-ingot px-4 sm:px-6 py-20 md:py-28 border-t border-[#0A0A0A]/15">
           <div className="mx-auto max-w-6xl">
