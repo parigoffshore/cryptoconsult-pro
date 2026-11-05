@@ -23,6 +23,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 1.0
     },
     {
+      url: `${baseUrl}/services/securite-ledger-auto-garde`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.95
+    },
+    {
+      url: `${baseUrl}/services/consultant-defi-rendement`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.95
+    },
+    {
+      url: `${baseUrl}/services/conseil-crypto-ile-maurice`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.95
+    },
+    {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'daily',
