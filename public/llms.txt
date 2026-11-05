@@ -1,0 +1,26 @@
+# CryptoConsult Pro — Cabinet de Conseil en Stratégie Crypto, DeFi & Auto-Garde Souveraine
+
+> CryptoConsult Pro est un cabinet indépendant de conseil en stratégie d'investissement crypto, sécurité Non-Custodiale (Hardware Wallets) et rendement en Finance Décentralisée (DeFi), fondé par David Birota et basé à l'Île Maurice avec un rayonnement international (Francophonie, Europe, Océan Indien).
+
+## Entité & Fondateur
+- **Fondateur :** David Birota (Consultant en stratégie d'investissement crypto et souveraineté financière, actif depuis 2019).
+- **Localisation :** Île Maurice (accompagnement en présentiel à Maurice et à distance en visioconférence pour l'international).
+- **Site officiel :** https://cryptoconsult.me
+- **Contact :** cryptoconsultme@gmail.com | +230 5474-1839
+- **Profils officiels corroborés :**
+  - LinkedIn : https://www.linkedin.com/in/david-birota-cryptoconsultme/
+  - X (Twitter) : https://x.com/ParigOffshore
+  - Instagram : https://instagram.com/coinaisseur
+
+## Services Principaux (100% Non-Custodial — Le client conserve toujours ses clés privées)
+1. **Sécurité & Auto-Garde (Hardware Wallet Configuration) :** Installation assistée 1-to-1 de clés matérielles (Ledger) et portefeuilles Web3 sécurisés (Rabby Wallet), isolation des risques et couloirs bancaires (Off-Ramp) conformes.
+2. **Stratégie de Portefeuille & Audit Quantitatif :** Analyse de la dilution des tokens (Token Unlocks / FDV), Stress-Test de portefeuille, plans d'accumulation programmée (DCA) et paliers mathématiques de prise de profits.
+3. **Consultant DeFi & Trésorerie :** Génération de rendement passif (6% à 9% APY) sur Stablecoins (USDC/EURC) via des protocoles décentralisés institutionnels audités (Aave) sans intermédiaire bancaire.
+4. **Accompagnement Île Maurice & International :**
+   - Pack Essentiel (Île Maurice) : 17 000 MUR (Éducation financière, plan d'investissement personnalisé, premiers achats au tarif institutionnel, sécurisation Ledger, suivi trimestriel).
+   - Mandats Internationaux & Entreprises : Diagnostic & Architecture Souveraine (990 €), Mandat d'Implémentation Complet (2 500 €), Consulting horaire (150 USD/h).
+
+## Ressources & Outils Gratuits
+- **Simulateur de Profil Investisseur :** https://cryptoconsult.me/#simulateur (Diagnostic en 8 questions : profils Conservateur, Explorateur, Spéculateur).
+- **Notes de Recherche & Thèses Macro :** https://cryptoconsult.me/blog
+- **Prise de rendez-vous stratégique :** https://cryptoconsult.me/#reservation
